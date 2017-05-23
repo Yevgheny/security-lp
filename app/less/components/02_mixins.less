@@ -1,0 +1,92 @@
+.rotate (@deg) {
+	-webkit-transform: rotate(@deg);
+	-moz-transform:    rotate(@deg);
+	-ms-transform: 	   rotate(@deg);
+	-o-transform: 	   rotate(@deg);
+}
+.border-radius (@radius: 5px) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius:    @radius;
+	border-radius:         @radius;
+
+	-moz-background-clip:    padding;
+	-webkit-background-clip: padding-box;
+	background-clip:         padding-box;
+}
+.opacity (@opacity: 0.5) {
+	-webkit-opacity: 	@opacity;
+	-moz-opacity: 		@opacity;
+	opacity: 		@opacity;
+}
+.transition (@transition) {
+	-webkit-transition: @transition;  
+	-moz-transition:    @transition;
+	-ms-transition:     @transition; 
+	-o-transition:      @transition;  
+}
+.scale (@factor) {
+	-webkit-transform: scale(@factor);
+	-moz-transform: 	 scale(@factor);
+	-ms-transform: 		 scale(@factor);
+	-o-transform: 		 scale(@factor);
+}
+.looping (@dom: div; @file: icon; @count: 6; @format: png) {
+	.loop (0) {}
+	.loop (@index) when (@index > 0) {
+		.@{dom}@{index} {
+			background-image: url("../img/@{file}@{index}.@{format}");
+			background-repeat: no-repeat;
+		}
+		.loop (@index - 1);
+	}
+	.loop(@count);
+}
+.looping-hover (@dom: div; @file: icon; @count: 6; @format: png) {
+	.loop (0) {}
+	.loop (@index) when (@index > 0) {
+		.@{dom}@{index}:hover {
+			background-image: url("../img/@{file}@{index}.@{format}");
+			background-repeat: no-repeat;
+			background-position: center;
+		}
+		.loop (@index - 1);
+	}
+	.loop(@count);
+}
+.fs(@fs: 1.6rem;) {
+	@media @mobile {
+		font-size: @fs/1.5;
+	}
+	@media @tablet {
+		font-size: @fs/1.3;
+	}
+	@media @desktop {
+		font-size: @fs;
+	}
+}
+.placeholder(@ff: @ff; @fs: @fs; @fw: 400; @color: @text-color) {
+	input::-webkit-input-placeholder, textarea::-webkit-input-placeholder      {
+		font-family: @ff;
+		font-size: @fs;
+		font-weight: @fw;
+		color: @color;
+	}
+	input::-moz-placeholder, textarea::-moz-placeholder                			{
+		font-family: @ff;
+		font-size: @fs;
+		font-weight: @fw;
+		color: @color;
+	}
+	input:-moz-placeholder, textarea:-moz-placeholder                 			{
+		font-family: @ff;
+		font-size: @fs;
+		font-weight: @fw;
+		color: @color;
+	}
+	input:-ms-input-placeholder, textarea:-ms-input-placeholder          		{
+		font-family: @ff;
+		font-size: @fs;
+		font-weight: @fw;
+		color: @color;
+	}
+}
