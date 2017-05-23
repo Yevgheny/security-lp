@@ -761,3 +761,7 @@ label.error {
   color: #fff;
   background-color: #2a333d;
 }
+.our-company {
+  height: 550px;
+  background: #ccc;
+}

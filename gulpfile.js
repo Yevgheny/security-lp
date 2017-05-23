@@ -4,7 +4,7 @@ var gulp       	= require('gulp'), // Подключаем Gulp
 	concat       = require('gulp-concat'), // Подключаем gulp-concat (для конкатенации файлов)
 	uglify       = require('gulp-uglifyjs'), // Подключаем gulp-uglifyjs (для сжатия JS)
 	cssnano      = require('gulp-cssnano'), // Подключаем пакет для минификации CSS
-	rename       = require('gulp-rename'), // Подключаем библиотеку для переименования файлов
+	
 	del          = require('del'), // Подключаем библиотеку для удаления файлов и папок
 	imagemin     = require('gulp-imagemin'), // Подключаем библиотеку для работы с изображениями
 	pngquant     = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
@@ -30,15 +30,13 @@ gulp.task('browser-sync', function() { // Создаем таск browser-sync
 
 gulp.task('css-libs', ['less'], function() {
 	return gulp.src('app/css/libs.css') // Выбираем файл для минификации
-		.pipe(cssnano()) // Сжимаем
-		.pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
+		.pipe(cssnano()) // Сжимаем		
 		.pipe(gulp.dest('app/css')); // Выгружаем в папку app/css
 });
 
 gulp.task('header', ['less'], function() {
 	return gulp.src('app/header-css/_header.css') // Выбираем файл для минификации
-		.pipe(cssnano()) // Сжимаем
-		.pipe(rename({suffix: '.min'})) // Добавляем суффикс .min
+		.pipe(cssnano()) // Сжимаем	
 		.pipe(gulp.dest('app/header-css')); // Выгружаем в папку app/css
 });
 
