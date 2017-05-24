@@ -1,0 +1,20 @@
+.video {
+	display: block;
+	position: relative;
+	margin-bottom: 100px;	
+	&__wrap {		
+		max-width: 770px;
+		min-height: 420px;
+		overflow: hidden;
+		position: relative;
+		z-index: 100;
+	}
+	&__substrate {
+		width: 100%;
+		min-height: 275px;
+		background: url("@{dir}video-bg.jpg")no-repeat top center;
+		background-size: cover;
+		position: absolute;
+		top: 37%;
+	}
+}

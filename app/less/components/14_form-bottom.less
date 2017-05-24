@@ -1,0 +1,35 @@
+.form-bottom {
+	min-height: 615px;
+	background: url("@{dir}form-bottom-bg.jpg")no-repeat top center;
+	background-size: cover;
+	padding-top: 60px;
+	position: relative;
+	z-index: 200;
+	&__head {
+		margin-bottom: 35px;
+		h2 {
+			font-family: @ff4;
+			font-style: italic;
+			font-size: 5.5rem;
+			color: @grey;
+			span {
+				display: block;
+				font-family: @ff3;
+				font-size: @h2;
+			}
+		}
+	}
+	&__content {
+		p {
+			font-size: @h3;
+			span {
+				font-family: @ff4;
+			}
+		}
+		&--description {
+			span {
+				font-family: @ff4;
+			}
+		}
+	}
+}
