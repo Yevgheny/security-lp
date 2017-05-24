@@ -932,3 +932,122 @@ label.error {
 .our-company-content-wrap-two p {
   margin-bottom: 40px;
 }
+.video {
+  display: block;
+  position: relative;
+  margin-bottom: 100px;
+}
+.video__wrap {
+  max-width: 770px;
+  min-height: 420px;
+  overflow: hidden;
+  position: relative;
+  z-index: 100;
+}
+.video__substrate {
+  width: 100%;
+  min-height: 275px;
+  background: url("../img/video-bg.jpg") no-repeat top center;
+  background-size: cover;
+  position: absolute;
+  top: 37%;
+}
+.you-need-security {
+  margin-bottom: 200px;
+  position: relative;
+  z-index: 50;
+}
+.you-need-security__head {
+  margin-bottom: 165px;
+}
+.cloud-wrap p {
+  position: relative;
+  z-index: 200;
+}
+.cloud-wrap__item-1 {
+  padding-top: 60px;
+  margin-bottom: 120px;
+}
+.cloud-wrap__item-1:before {
+  content: url("../img/cloud-1.png");
+  display: block;
+  position: absolute;
+  left: -16%;
+  bottom: 54%;
+  z-index: 100;
+}
+.cloud-wrap__item-2 {
+  margin-bottom: 120px;
+}
+.cloud-wrap__item-2:before {
+  content: url("../img/cloud-2.png");
+  display: block;
+  position: absolute;
+  left: -31%;
+  bottom: 9%;
+  z-index: 110;
+}
+.cloud-wrap__item-3:before {
+  content: url("../img/cloud-1.png");
+  display: block;
+  position: absolute;
+  left: -9%;
+  bottom: -21%;
+  z-index: 120;
+}
+.cloud-wrap__item-4:before {
+  content: url("../img/cloud-3.png");
+  display: block;
+  position: absolute;
+  top: -140%;
+  left: -32%;
+  z-index: 110;
+}
+.men-wrap {
+  position: relative;
+}
+.men-wrap:before {
+  content: url("../img/men-bg.png");
+  display: block;
+  position: absolute;
+  top: -66px;
+  left: -62%;
+}
+.form-bottom {
+  min-height: 615px;
+  background: url("../img/form-bottom-bg.jpg") no-repeat top center;
+  background-size: cover;
+  padding-top: 60px;
+  position: relative;
+  z-index: 200;
+}
+.form-bottom__head {
+  margin-bottom: 35px;
+}
+.form-bottom__head h2 {
+  font-family: 'Rubik-Bold', sans-serif;
+  font-style: italic;
+  font-size: 5.5rem;
+  color: #2a333d;
+}
+.form-bottom__head h2 span {
+  display: block;
+  font-family: 'Rubik-MediumItalic', sans-serif;
+  font-size: 3.6rem;
+}
+.form-bottom__content p {
+  font-size: 2.4rem;
+}
+.form-bottom__content p span {
+  font-family: 'Rubik-Bold', sans-serif;
+}
+.form-bottom__content--description span {
+  font-family: 'Rubik-Bold', sans-serif;
+}
+.our-clients {
+  padding-top: 95px;
+  margin-bottom: 100px;
+}
+.our-clients__content-wrap--item {
+  margin-bottom: 28px;
+}
