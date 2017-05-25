@@ -18,6 +18,80 @@
 	.our-company-content-wrap-two {
 		padding-left: 25px;
 	}
+	.video__substrate {
+		top: 32%;
+	}
+	.men-wrap::before {
+		display: none;
+	}
+	.you-need-security {
+		margin-bottom: 110px;
+	}		
+	.cloud-wrap__item-1,
+	.cloud-wrap__item-2 {
+		margin-bottom: 100px;
+	}
+	.cloud-wrap__item-1 {
+		padding-top: 90px;
+	}
+	.cloud-wrap__item-4::before {
+		top: -128%;
+		left: -55%;
+	}	
+	.cloud-wrap__item-1::before {
+		bottom: 52%;
+	}
+	.cloud-wrap__item-1--two,
+	.cloud-wrap__item-1--three {
+		margin-left: 30px;
+	}
+	.cloud-wrap__item-1--six,
+	.cloud-wrap__item-1--seven {
+		margin-left: -30px;
+		padding-right: 5px;
+	}
+	.cloud-wrap__item-1--two:before {
+		bottom: 11%;
+	}
+	.cloud-wrap__item-1--six:before {
+		left: -52%;
+		bottom: 15%;
+	}
+	.cloud-wrap__item-1--seven:before {
+		left: -19%;
+		bottom: -15%;
+	}
+	.form-bottom {
+		padding-bottom: 30px;
+	}
+	.project-slide-row {
+		text-align: center;
+	}
+	.project-slide__text p {
+		text-align: left;
+	}
+	.compilited-projects {
+		padding-bottom: 135px;
+	}
+	#slider .owl-prev,
+	#slider .owl-next {
+		bottom: -9%;
+	}
+	#slider .owl-dots {	    
+	    bottom: -8.5%;
+	    left: 46%;
+	}
+	.five-steps__content-wrap::before {
+		display: none;
+	}
+	.five-steps__content-wrap--items::before {
+		left: 29%;
+		top: 15%;
+	}
+	.five-steps__content-wrap--items:after {
+		left: 45%;		
+	}
+	
 }
 
 /* Medium Devices, Desktops */
@@ -32,6 +106,25 @@
 	.our-company__item--3 {
 	    padding-top: 137px;
 	}
+	.five-steps__content-wrap--items::before {
+	    left: 24%;
+	    top: 6%;
+	}
+	.five-steps__content-wrap--items::after {
+	    left: 44%;
+	    top: 15%;
+	}
+	.five-steps__content-wrap--items-two::before {
+		left: 35%;
+		top: 7%;
+	}
+	.five-steps__content-wrap--items-two::after {		
+		top: 16%;
+	}
+	.five-steps__content-wrap--description {
+	    padding-top: 0;
+	}
+	
 }
 
 /* Small Devices, Tablets */
@@ -47,9 +140,78 @@
 		padding-right: 15px;
 		padding-left: 15px;
 	}
-	.btn-license {
-		max-width: 85%;	
+	.you-need-security {
+		margin-bottom: 0;
 	}
+	.cloud-wrap__item-4::before {
+	    top: -81%;
+	    left: -90%;
+	}
+	.cloud-wrap__item-1::before {
+	    bottom: 56%;
+	}
+	.cloud-wrap__item-1--two, 
+	.cloud-wrap__item-1--three {
+	    margin-left: 0;
+	}
+	.cloud-wrap__item-1--six, 
+	.cloud-wrap__item-1--seven {
+	    margin-left: 0;
+	    padding-right: 0;
+	}
+	.cloud-wrap__item-1--five:before {
+		bottom: 58%;
+	}
+	.cloud-wrap__item-2::before {
+		left: -62%;
+		bottom: 17%;
+	}
+	.cloud-wrap__item-1--six:before {
+		left: -78%;
+		bottom: 23%;
+	}
+	.cloud-wrap__item-3::before {
+		left: -18%;
+		bottom: -13%;
+	}
+	.cloud-wrap__item-1--seven::before {
+	    left: -31%;
+	    bottom: -5%;
+	}
+	.five-steps__content-wrap--items::before,
+	.five-steps__content-wrap--items-two::before {
+		width: 110px;
+		height: 110px;		
+	}
+	.five-steps__content-wrap--items::before {
+		left: 26%;
+		top: 7%;
+	}
+	.five-steps__content-wrap--items::after {
+	    left: 41%;
+	    top: 6%;
+	}
+	.five-steps__content-wrap--items-two::after {
+	    top: 7%;
+	    left: 45%;
+	}
+	.main-footer__logo {
+		margin: 0 auto;
+	}
+	.main-footer__studio-developet {
+	    text-align: center;
+	    padding-top: 15px;
+	}
+	#slider .owl-prev {
+		left: 10%;
+	} 
+	#slider .owl-next {
+		right: 10%;
+	}
+	#slider .owl-dots {
+		left: 45%;
+	}
+	
 	
 	/*Disable Animation on Mobile Devices*/
 	.animated {
@@ -80,25 +242,152 @@
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 736px) {
+	.our-company-item-wrap .our-company__item--2 {
+		float: right;
+	}
 	.our-company-content-wrap-two p {
 	    margin-bottom: 0;
 	}
+	.btn-license {
+		max-width: 85%;	
+	}
+	.cloud-wrap:before {
+		display: none;
+	}
+	.cloud-wrap__item-1 {
+	    padding-top: 0;
+	}
+	.you-need-security__head {
+	    margin-bottom: 100px;
+	}
+	.cloud-wrap__item-1, 
+	.cloud-wrap__item-2,
+	.cloud-wrap__item-3,
+	.cloud-wrap__item-4 {
+	    margin-bottom: 15px;
+	}
+	.cloud-wrap {
+		width: 100%;		
+		background: #f6faff;
+		border: 2px solid #48597c;
+		border-radius: 3px;
+		padding: 10px;
+	}
+	.form-bottom {
+		background: #fbc405;
+	}
+	.five-steps__content-wrap--items,
+	.five-steps__content-wrap--items-two,
+	.five-steps__application a {
+		margin: 30px auto 30px;
+	}
+	.five-steps__application {
+		margin-bottom: 0;
+	}
+	.five-steps__content-wrap--items::before {
+	    left: 36%;
+	    top: 27%;
+	}
+	.five-steps__content-wrap--items::after {
+	    left: 45%;
+	    top: 26%;
+	}
+	.five-steps__content-wrap--items-two::before {
+	    left: 42%;
+	    top: 26%;
+	}
+	.five-steps__content-wrap--items-two::after {
+	    top: 25%;
+	    left: 48%;
+	}
+	.contacts__head {
+	    margin-top: 0;
+	    padding-top: 20px;
+	}
+	.footer-head,
+	.contacts {
+		text-align: center;
+	}	
+	.bottom-form-btn {
+		margin: 0 auto;
+	}
+	.contacts__phone a {
+		margin-bottom: 30px;
+	}
+	
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 667px) {
-	.btn-license {
+	.btn-license,
+	.btn-application {
 	    max-width: 100%;
 	}
+	.main-footer {
+		padding-bottom: 15px;
+	}
+	
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	#slider .owl-prev {
+		left: 0;
+	} 
+	#slider .owl-next {
+		right: 0;
+	}
+	.slide-picture-after-two-wrap {
+		text-align: left;
+	}
+	.slide-picture-after-two-wrap li {
+		margin-right: 10px;
+	}
+	.video__substrate {
+		display: none;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    
+    .five-steps__content-wrap--items-two::before {
+	    left: 38%;
+	    top: 18%;
+	}
+	.five-steps__content-wrap--items-two::after {
+	    top: 17%;
+	    left: 46%;
+	}
+	.project-slide-picture-after {
+		min-height: 300px;
+	}
+	.slide-picture-after-two {
+		max-width: 145px;
+	}
+	.slide-picture-after-two-wrap li {
+	    margin-right: 3px;
+	}
+	#slider .owl-dots {
+		display: none;
+	}
+}
+
+@media only screen and (max-width : 415px) {
+	.form-bottom__head h2 {
+		font-size: 5rem;
+	}
+	.project-slide-picture-after {
+		min-height: 260px;
+	}
+	.slide-picture-after-two-wrap {
+		margin-top: 0;
+	}
+	.slide-picture-after-two {
+	    max-width: 122px;
+	}
+	#slider .owl-prev, 
+	#slider .owl-next {
+	    bottom: -6%;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
@@ -106,12 +395,74 @@
 	.our-company-content-wrap {    
 	    padding-right: 5px;
 	    padding-left: 5px;
+	}	
+	.five-steps__content-wrap--items-two::before {
+	    left: 35%;
+	    top: 11%;
+	}
+	.five-steps__content-wrap--items-two::after {
+	    top: 11%;
+	    left: 44%;
+	}
+	.five-steps__content-wrap--items-two {
+		min-height: auto;
+	}
+	.form-bottom__head h2 {
+	    font-size: 4rem;
+	}
+	.slide-picture-after-two {
+	    max-width: 109px;
 	}
 }
 
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
+	.slide-picture-after-two {
+	    max-width: 104px;
+	}
+	.five-steps__content-wrap--items::before {
+	    left: 35%;
+	    top: 23%;
+	}
+	.five-steps__content-wrap--items::after {	    
+	    top: 23%;
+	}
+}
 
+@media only screen and (max-width : 360px) {
+	.you-need-security__head {
+	    margin-bottom: 40px;
+	}
+	.our-clients {
+		margin-bottom: 20px;
+	}
+	.project-slide-picture-after {
+	    min-height: 210px;
+	}
+	.slide-picture-after-two {
+	    max-width: 91px;
+	}
+	.compilited-projects {
+	    padding-bottom: 65px;
+	}
+	#slider .owl-prev, #slider .owl-next {
+	    bottom: -3%;
+	}
+	.five-steps__content-wrap--items::before {
+	    left: 33%;
+	    top: 18%;
+	}
+	.five-steps__content-wrap--items::after {
+	    top: 17%;
+	}
+	.five-steps__content-wrap--items-two::before {
+	    left: 31%;
+	    top: 5%;
+	}
+	.five-steps__content-wrap--items-two::after {
+	    top: 3%;
+	    left: 43%;
+	}
 }
 
 /* Custom, iPhone Retina */

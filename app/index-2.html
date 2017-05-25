@@ -132,8 +132,24 @@
 											<div class="our-company-content our-company-content__license"> 
 												<span>Лицензия на услуги</span>
 												<p>Работаем прозрачно и имеем лицензию услуги, которые предоставляем. Каждый этап реализации проекта фиксируется подписанием договора, что гарантирует выполнение нами своих обязательств перед клиентом.</p>
-												<div class="view-license">
-													<a class="btn main-btn btn-red btn-license" href="#">Посмотреть лицензию</a>
+												<div class="view-license popup-gallery">
+													<a class="popup-modal btn main-btn btn-red btn-license" href="#test-modal">Посмотреть лицензию</a>
+													<div id="test-modal" class="mfp-hide white-popup-block">
+														<div id="slider-1" class="owl-carousel owl-theme">
+															<div>
+																<div class="license">
+																	<div class="license-slide">
+																		<img src="img/license-1.jpeg" alt="license-1">
+																	</div>
+																</div>
+															</div>
+															<div>
+																<div class="license-slide">
+																	<img src="img/license-2.jpeg" alt="license-2">
+																</div>
+															</div>
+														</div>						
+													</div>		
 												</div>		
 											</div> 
 										</div> 
@@ -176,30 +192,30 @@
 						</div>
 						<div class="row">
 							<div class="col-sm-4">
-								<div class="cloud-wrap cloud-wrap__item-1">
+								<div class="cloud-wrap cloud-wrap__item-1 cloud-wrap__item-1--one">
 									<p>... у Вас есть домработница/няня, и Вы хотите всегда контролировать ее работу, особенно в Ваше отсутствие.</p>
 								</div>
-								<div class="cloud-wrap cloud-wrap__item-2">
+								<div class="cloud-wrap cloud-wrap__item-2 cloud-wrap__item-1--two">
 									<p>... Вы часто бываете в командировках,<br> и Вам необходимо наблюдать за ситуацией дома.</p>
 								</div>
-								<div class="cloud-wrap cloud-wrap__item-3">
+								<div class="cloud-wrap cloud-wrap__item-3 cloud-wrap__item-1--three">
 									<p>... Вы затеяли ремонт, но не можете постоянно сидеть дома и контролировать рабочих.</p>
 								</div>
 							</div>
 							<div class="col-sm-4">
-								<div class="cloud-wrap cloud-wrap__item-4">
+								<div class="cloud-wrap cloud-wrap__item-4 cloud-wrap__item-1--four">
 									<p>... у Вас есть дача/загородный дом, куда Вы редко наведываетесь, но хотите контролировать ситуацию там.</p>
 								</div>
 								<div class="men-wrap"></div>
 							</div>
 							<div class="col-sm-4">
-								<div class="cloud-wrap cloud-wrap__item-1">
+								<div class="cloud-wrap cloud-wrap__item-1 cloud-wrap__item-1--five">
 									<p>... дети остаются сами дома,<br> и Вы хотите присматривать за ними, пока находитесь на работе</p>
 								</div>
-								<div class="cloud-wrap cloud-wrap__item-2">
+								<div class="cloud-wrap cloud-wrap__item-2 cloud-wrap__item-1--six">
 									<p>… у Вас есть гараж, который должен всегда находится под контролем <br>во избежание неприятных ситуаций.</p>
 								</div>
-								<div class="cloud-wrap cloud-wrap__item-3">
+								<div class="cloud-wrap cloud-wrap__item-3 cloud-wrap__item-1--seven">
 									<p>... Вы путешествуете всей семьей и хотите присматривать за домом/квартирой в любом уголке мира с помощью телефона/планшета/ноутбука.</p>
 								</div>
 							</div>
@@ -345,23 +361,29 @@
 													</div>
 												</div>
 												<div class="project-slide-two">
-													<div class="project-slide-picture-after">
+													<div class="project-slide-picture-after project-slide-picture-after-1 active" style="display: block;">
+														<img src="img/complited-projects-item.jpg" alt="complited-projects-item">
+													</div>
+													<div class="project-slide-picture-after project-slide-picture-after-2" style="display: none;">
+														<img src="img/complited-projects-item.jpg" alt="complited-projects-item">
+													</div>
+													<div class="project-slide-picture-after project-slide-picture-after-3" style="display: none;">
 														<img src="img/complited-projects-item.jpg" alt="complited-projects-item">
 													</div>
 													<div class="slide-picture-after-two-wrap">
 														<ul>
 															<li>
-																<div class="slide-picture-after-two">
+																<div class="slide-picture-after-two slide-picture-switch-1">
 																	<img src="img/complited-projects-item-1.jpg" alt="complited-projects-item-1">
 																</div>
 															</li>
 															<li>
-																<div class="slide-picture-after-two">
+																<div class="slide-picture-after-two slide-picture-switch-2">
 																	<img src="img/complited-projects-item-2.jpg" alt="complited-projects-item-2">
 																</div>
 															</li>
 															<li>
-																<div class="slide-picture-after-two">
+																<div class="slide-picture-after-two slide-picture-switch-3">
 																	<img src="img/complited-projects-item-3.jpg" alt="complited-projects-item-3">
 																</div>
 															</li>					
@@ -486,7 +508,7 @@
 											<img src="img/step-2.jpg" alt="step-2">
 										</div>
 										<div class="five-steps__content-wrap--description">
-											<p>Специалист приезжает на объект, изучает его, составляет схему и смету будущего проекта..</p>
+											<p>Специалист приезжает на объект, изучает его, составляет схему и смету будущего проекта.</p>
 										</div>
 									</div>
 									<div class="col-sm-4">
@@ -494,14 +516,14 @@
 											<img src="img/step-3.jpg" alt="step-3">
 										</div>
 										<div class="five-steps__content-wrap--description">
-											<p>Подписываем договор на проектирование и выставляем счет. Вы вносите предоплату и мы составляем договор на монтаж..</p>
+											<p>Подписываем договор на проектирование и выставляем счет. Вы вносите предоплату и мы составляем договор на монтаж.</p>
 										</div>
 									</div>
 								</div>
 								<div class="row">
-									<div class="col-sm-3">
+									<div class="col-md-3">
 										<div class="five-steps__application">
-											<a href=""  class="btn main-btn btn-red">Оставить заявку</a>					
+											<a href=""  class="btn main-btn btn-red btn-application">Оставить заявку</a>					
 										</div>
 									</div>
 								</div>
@@ -535,7 +557,21 @@
 									</div>
 								</div>
 								<div class="col-sm-4">
-									<h2 class="main-headline footer-head">Как нас найти</h2>
+									<div class="contacts__head">
+										<h2 class="main-headline footer-head">Как нас найти</h2>
+									</div>
+									<div class="contacts__content">
+										<p>г. Харьков,</p> 
+										<p>пр-т Московский, 257, оф. 1101</p>
+									</div>
+									<div class="contacts__phone">
+										<a href="tel:0956628080">(095) 662-80-80</a>
+										<a href="tel:0689628080">(068) 962-80-80</a>
+										<a href="tel:0639238080">(063) 923-80-80</a>
+									</div>
+									<div class="contacts__email">
+										<a href="malito:sb@gmail.com">sb@gmail.com</a>
+									</div>
 								</div>
 							</div>
 						</div>
@@ -543,7 +579,25 @@
 
 					<footer class="main-footer">
 						<div class="container clearfix">
-							
+							<div class="row">
+								<div class="col-md-2">
+									<div class="main-footer__logo">
+										<img src="img/logo.png" alt="logo">
+									</div>
+								</div>
+								<div class="col-md-8">
+									<div class="main-footer__policy-conf">
+										<a href="#modal-2">Политика конфиденциальности</a>
+										<span>© 2017 «Радио-линк». Все права защищены</span>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="main-footer__studio-developet">
+										<span>Проект разработан</span>
+										<a href="#">КнБ Studio</a>
+									</div>
+								</div>
+							</div>
 						</div>
 					</footer>
 				</div>
@@ -623,6 +677,7 @@
 		loadCSS("libs/owlcarousel/owl.carousel.min.css"); //Load Libs CSS: OwlCarousel CSS
 		loadCSS("libs/owlcarousel/owl.theme.default.min.css"); //Load Libs CSS: OwlCarousel CSS
 		loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
+		loadCSS("libs/magnific-popup/dist/magnific-popup.css"); //Load Libs CSS: Magnific-popup CSS
 		loadCSS("libs/remodal/remodal.css"); //Load Libs CSS: Remodal CSS
 		loadCSS("libs/remodal/remodal-default-theme.css"); //Load Libs CSS: Remodal CSS
 		loadCSS("header-css/_header.css");   //Header Styles (compress & paste to header after release)
@@ -642,6 +697,7 @@
 		{"src" : "libs/modernizr/modernizr.js", "async" : false},				
 		{"src" : "libs/animate/wow.js", "async" : false},
 		{"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},
+		{"src" : "libs/magnific-popup/dist/jquery.magnific-popup.min.js", "async" : false},
 		{"src" : "libs/owlcarousel/owl.carousel.min.js", "async" : false},
 		{"src" : "libs/remodal/remodal.min.js", "async" : false},
 		{"src" : "libs/validate/jquery.validate.min.js", "async" : false},
