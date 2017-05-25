@@ -11,7 +11,7 @@ body {
 	display: none;
 }
 .map {
-	min-height: 650px;
+	min-height: 420px;
 }
 .gmnoprint > div {
 	background: green !important;

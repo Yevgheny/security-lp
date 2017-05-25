@@ -1,0 +1,105 @@
+.five-steps {
+	padding-top: 95px;
+	margin-bottom: 110px;
+	&__content-wrap {
+		position: relative;
+		&:before {
+			content: url("../img/curved-line.png");
+			display: block;
+			position: absolute;
+			left: -9%;
+			bottom: 15%;
+			z-index: 100;
+		}
+		&--items {
+			max-width: 370px;
+			min-height: 240px;
+			border-radius: 3px;
+	  		overflow: hidden;
+	  		position: relative;
+	  		z-index: 200;
+			img {
+				max-width: 100%;
+				height: auto;
+			}
+			&:before {
+				content:"";
+				display: block;
+				width: 160px;
+				height: 160px;
+				border-radius: 50%;
+				border: 3px dashed @grey;
+				position: absolute;
+			    left: 31%;
+			    top: 16%;
+			}
+		}
+		&--items-two {
+			max-width: 570px;
+			min-height: 240px;
+			border-radius: 3px;
+	  		overflow: hidden;
+	  		position: relative;
+	  		z-index: 200;
+	  		&:before {
+				content:"";
+				display: block;
+				width: 160px;
+				height: 160px;
+				border-radius: 50%;
+				border: 3px dashed @grey;
+				position: absolute;
+			    left: 37%;
+			    top: 16%;
+			}
+		}
+		&--description {
+			padding-top: 40px;
+		}		
+	}
+	&__application {
+		margin-bottom: 75px;
+		position: relative;
+	  	z-index: 200;
+	}	
+}
+.contant-wrap--step-1:after {
+	content: "1";	
+	font-size: 72px;
+	color: @grey;
+	position: absolute;
+	left: 47%;
+	top: 24%;
+}
+.contant-wrap--step-2:after {
+	content: "2";	
+	font-size: 72px;
+	color: @grey;
+	position: absolute;
+	left: 47%;
+	top: 24%;
+}
+.contant-wrap--step-3:after {
+	content: "3";	
+	font-size: 72px;
+	color: @grey;
+	position: absolute;
+	left: 47%;
+	top: 24%;
+}
+.contant-wrap--step-4:after {
+	content: "4";	
+	font-size: 72px;
+	color: @grey;
+	position: absolute;
+	left: 47%;
+	top: 24%;
+}
+.contant-wrap--step-5:after {
+	content: "5";	
+	font-size: 72px;
+	color: @grey;
+	position: absolute;
+	left: 47%;
+	top: 24%;
+}
