@@ -241,6 +241,7 @@ h2 {
 	.logo-pic {
 		max-height: 95px;
 	}
+
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
@@ -381,8 +382,16 @@ h2 {
 }
 /* Custom, iPhone 6 */
 @media only screen and (max-width : 375px) {
+	h1 {
+		max-width: 330px;
+		text-align: center;
+	}
 	.main-screen-sub-header {
-		font-size: 2.4rem;
+		font-size: 2.3rem;
+		text-align: center;
+	}
+	.header-features__item {
+		font-size: 1.8rem;
 	}
 	.main-btn {
 		font-size: 1.6rem;
@@ -419,7 +428,9 @@ h2 {
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-
+	.top-head-item--2.top-head-item-xs {
+		display: none;
+	}
 }
 
 /* Medium Devices, Desktops */
