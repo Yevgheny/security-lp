@@ -174,6 +174,27 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	/*Disable Animation on Mobile Devices*/
+	.animated {
+		/*CSS transitions*/
+		-o-transition-property: none !important;
+		-moz-transition-property: none !important;
+		-ms-transition-property: none !important;
+		-webkit-transition-property: none !important;
+		transition-property: none !important;
+		/*CSS transforms*/
+		-o-transform: none !important;
+		-moz-transform: none !important;
+		-ms-transform: none !important;
+		-webkit-transform: none !important;
+		transform: none !important;
+		/*CSS animations*/
+		-webkit-animation: none !important;
+		-moz-animation: none !important;
+		-o-animation: none !important;
+		-ms-animation: none !important;
+		animation: none !important;
+	}
 	.your-security__img {
 		text-align: center;
 		margin-bottom: 0;
@@ -269,6 +290,32 @@
 	    left: 41%;
 	    top: 6%;
 	}
+	.cloud-wrap__item-1--six:before {
+		left: -78%;
+		bottom: 23%;
+	}
+	.cloud-wrap__item-3::before {
+		left: -18%;
+		bottom: -13%;
+	}
+	.cloud-wrap__item-1--seven::before {
+	    left: -31%;
+	    bottom: -5%;
+	}
+	.five-steps__content-wrap--items::before,
+	.five-steps__content-wrap--items-two::before {
+		width: 110px;
+		height: 110px;		
+	}
+	.five-steps__content-wrap--items::before {
+		left: 26%;
+		top: 7%;
+	}
+	.five-steps__content-wrap--items::after {
+	    left: 41%;
+	    top: 6%;
+	}
+
 	.five-steps__content-wrap--items-two::after {
 	    top: 7%;
 	    left: 45%;
@@ -288,29 +335,6 @@
 	}
 	#slider .owl-dots {
 		left: 45%;
-	}
-	
-	
-	/*Disable Animation on Mobile Devices*/
-	.animated {
-		/*CSS transitions*/
-		-o-transition-property: none !important;
-		-moz-transition-property: none !important;
-		-ms-transition-property: none !important;
-		-webkit-transition-property: none !important;
-		transition-property: none !important;
-		/*CSS transforms*/
-		-o-transform: none !important;
-		-moz-transform: none !important;
-		-ms-transform: none !important;
-		-webkit-transform: none !important;
-		transform: none !important;
-		/*CSS animations*/
-		-webkit-animation: none !important;
-		-moz-animation: none !important;
-		-o-animation: none !important;
-		-ms-animation: none !important;
-		animation: none !important;
 	}
 	section, header, footer {
 		overflow: hidden;
@@ -401,8 +425,9 @@
 	.btn-application {
 	    max-width: 100%;
 	}
-
-
+	.main-footer {
+		padding-bottom: 15px;
+	}
 }
 @media only screen and (max-width : 642px) {
 	.your-security__text h3 {
@@ -422,13 +447,6 @@
 		height: auto;
 		padding-bottom: 40px;
 	}
-	.main-footer {
-		padding-bottom: 15px;
-	}
-	
-}
-/* Custom, iPhone 5 */
-@media only screen and (max-width : 568px) {
 	#slider .owl-prev {
 		left: 0;
 	} 

@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6e280f6-547b-4599-ae21-218a7e95ec14" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/.bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/composer.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/dist/jquery.magnific-popup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/jquery.magnific-popup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/jquery.magnific-popup.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/magnific-popup.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/magnific-popup.jquery.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/package.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/css/_settings.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/css/main.scss" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/js/ajax.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/js/core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/js/gallery.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/js/iframe.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/js/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/js/inline.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/js/retina.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/magnific-popup/src/js/zoom.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_media.css" afterPath="$PROJECT_DIR$/css/_media.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-css/_header.css" afterPath="$PROJECT_DIR$/header-css/_header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-2.html" afterPath="$PROJECT_DIR$/index-2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/common.js" afterPath="$PROJECT_DIR$/js/common.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/07_footer.less" afterPath="$PROJECT_DIR$/less/components/07_footer.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/11_our-company.less" afterPath="$PROJECT_DIR$/less/components/11_our-company.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/12_video.less" afterPath="$PROJECT_DIR$/less/components/12_video.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/14_form-bottom.less" afterPath="$PROJECT_DIR$/less/components/14_form-bottom.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/15_our-clients.less" afterPath="$PROJECT_DIR$/less/components/15_our-clients.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/16_complited-projects.less" afterPath="$PROJECT_DIR$/less/components/16_complited-projects.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/17_five-steps.less" afterPath="$PROJECT_DIR$/less/components/17_five-steps.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/18_contacts.less" afterPath="$PROJECT_DIR$/less/components/18_contacts.less" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -89,21 +54,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_media.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_media.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/_media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="513" column="25" lean-forward="true" selection-start-line="513" selection-start-column="25" selection-end-line="513" selection-end-column="25" />
+            <state relative-caret-position="326">
+              <caret line="429" column="4" lean-forward="false" selection-start-line="429" selection-start-column="4" selection-end-line="429" selection-end-column="4" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header-css/_header.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="440">
-              <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+              <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -125,11 +90,11 @@
         <option value="$PROJECT_DIR$/css/style.css" />
         <option value="$PROJECT_DIR$/less/components/06_header.less" />
         <option value="$PROJECT_DIR$/header-css/_header.min.css" />
-        <option value="$PROJECT_DIR$/header-css/_header.css" />
         <option value="$PROJECT_DIR$/less/components/09_products.less" />
         <option value="$PROJECT_DIR$/less/components/10_form-top.less" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/index-2.html" />
+        <option value="$PROJECT_DIR$/header-css/_header.css" />
         <option value="$PROJECT_DIR$/css/_media.css" />
       </list>
     </option>
@@ -315,7 +280,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13645000" />
+    <option name="totallyTimeSpent" value="14473000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -551,18 +516,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/_media.css">
+    <entry file="file://$PROJECT_DIR$/header-css/_header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="513" column="25" lean-forward="true" selection-start-line="513" selection-start-column="25" selection-end-line="513" selection-end-column="25" />
+        <state relative-caret-position="440">
+          <caret line="70" column="14" lean-forward="false" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/header-css/_header.css">
+    <entry file="file://$PROJECT_DIR$/css/_media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="70" column="14" lean-forward="true" selection-start-line="70" selection-start-column="14" selection-end-line="70" selection-end-column="14" />
+        <state relative-caret-position="326">
+          <caret line="429" column="4" lean-forward="false" selection-start-line="429" selection-start-column="4" selection-end-line="429" selection-end-column="4" />
           <folding />
         </state>
       </provider>
