@@ -2,6 +2,25 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
+	.your-security__text {
+		height: 252px;
+	}
+	.your-security__text h3 {
+		font-size: 2rem;
+		padding-top: 24px;
+		margin-bottom: 12px;
+	}
+	.your-security__text p {
+		font-size: 1.6rem;
+	}
+	.products__item p {
+		font-size: 1.6rem;
+	}
+	.products-btn {
+		font-size: 1.6rem;
+		height: 55px;
+		line-height: 55px;
+	}
 	.our-company__item--2 {
 	    margin-top: 0;
 	    padding-top: 21px;
@@ -22,6 +41,32 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	.your-security__text {
+		height: 192px;
+		padding-left: 20px;
+	}
+	.your-security__text h3 {
+		font-size: 1.8rem;
+		padding-top: 15px;
+	}
+	.your-security__text p {
+		font-size: 1.4rem;
+	}
+	.products__item {
+		min-height: 490px;
+	}
+	.products__item h3 {
+		font-size: 2.2rem;
+	}
+	.products__item p {
+		font-size: 1.4rem;
+	}
+	.products-btn {
+		font-size: 1.6rem;
+		height: 50px;
+		line-height: 50px;
+		margin-bottom: 50px;
+	}
 	.our-company-item-wrap, 
 	.our-company-item-wrap-1 {
 		margin-bottom: 35px;
@@ -36,6 +81,39 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+	.your-security__img {
+		text-align: center;
+		margin-bottom: 0;
+		background: #f6faff;
+	}
+	.your-security__text {
+		background: #f6faff;
+		padding: 0 30px;
+	}
+	.your-security__text h3 {
+		text-align: center;
+	}
+	.products__item {
+		height: auto;
+		min-height: 0;
+		padding-bottom: 20px;
+	}
+	.products__item h3 {
+		text-align: center;
+	}
+	.products__item img {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.products__item {
+		max-width: 370px;
+		margin: 0 auto;
+	}
+	.products-btn {
+		max-width: 370px;
+		margin-left: auto;
+		margin-right: auto;
+	}
 	.our-company__item--2 {
 		padding-top: 0;
 	}
@@ -90,19 +168,40 @@
 	.btn-license {
 	    max-width: 100%;
 	}
+
+}
+@media only screen and (max-width : 642px) {
+	.your-security__text h3 {
+		font-size: 2.4rem;
+	}
+	.your-security__text p {
+		font-size: 1.8rem;
+	}
+	.products__item p {
+		font-size: 1.8rem;
+	}
+
 }
 /* Custom, iPhone 5 */
 @media only screen and (max-width : 568px) {
-
+	.your-security__text {
+		height: auto;
+		padding-bottom: 40px;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-    
+	.your-security__text {
+		padding: 0 20px 40px;
+	}
 }
 
 /* Custom, iPhone 6 Plus*/
 @media only screen and (max-width : 414px) {
+	.your-security__text h3 {
+		font-size: 2.2rem;
+	}
 	.our-company-content-wrap {    
 	    padding-right: 5px;
 	    padding-left: 5px;
@@ -133,9 +232,7 @@
 
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
-	.top-head-item--2.top-head-item-xs {
-		display: none;
-	}
+
 }
 
 /* Medium Devices, Desktops */
