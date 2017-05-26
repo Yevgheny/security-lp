@@ -1093,12 +1093,6 @@ label.error {
 #slider .owl-dots .owl-dot span:hover {
   background: #792d5d;
 }
-.project-slide-two.activ {
-  display: block;
-}
-.project-slide-picture-after {
-  display: none;
-}
 .five-steps {
   padding-top: 95px;
   margin-bottom: 110px;
@@ -1226,6 +1220,9 @@ label.error {
 }
 .contacts__phone a {
   display: block;
+}
+.map {
+  min-height: 420px;
 }
 .footer-head {
   text-align: left;
