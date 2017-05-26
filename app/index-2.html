@@ -16,401 +16,649 @@
 	<style>html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:bold}dfn{font-style:italic}h1{font-size:2em;margin:0.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom:-0.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace, monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:0}input[type="number"]::-webkit-inner-spin-button,input[type="number"]::-webkit-outer-spin-button{height:auto}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:bold}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}*{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}*:before,*:after{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html{font-size:10px;-webkit-tap-highlight-color:rgba(0,0,0,0)}body{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;line-height:1.42857143;color:#333;background-color:#fff}input,button,select,textarea{font-family:inherit;font-size:inherit;line-height:inherit}a{color:#337ab7;text-decoration:none}a:hover,a:focus{color:#23527c;text-decoration:underline}a:focus{outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px}figure{margin:0}img{vertical-align:middle}.img-responsive{display:block;max-width:100%;height:auto}.img-rounded{border-radius:6px}.img-thumbnail{padding:4px;line-height:1.42857143;background-color:#fff;border:1px solid #ddd;border-radius:4px;-webkit-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;display:inline-block;max-width:100%;height:auto}.img-circle{border-radius:50%}hr{margin-top:20px;margin-bottom:20px;border:0;border-top:1px solid #eee}.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);border:0}.sr-only-focusable:active,.sr-only-focusable:focus{position:static;width:auto;height:auto;margin:0;overflow:visible;clip:auto}[role="button"]{cursor:pointer}.container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}@media (min-width:768px){.container{width:750px}}@media (min-width:992px){.container{width:970px}}@media (min-width:1200px){.container{width:1170px}}.container-fluid{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px}.row{margin-left:-15px;margin-right:-15px}.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12{position:relative;min-height:1px;padding-left:15px;padding-right:15px}.col-xs-1, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9, .col-xs-10, .col-xs-11, .col-xs-12{float:left}.col-xs-12{width:100%}.col-xs-11{width:91.66666667%}.col-xs-10{width:83.33333333%}.col-xs-9{width:75%}.col-xs-8{width:66.66666667%}.col-xs-7{width:58.33333333%}.col-xs-6{width:50%}.col-xs-5{width:41.66666667%}.col-xs-4{width:33.33333333%}.col-xs-3{width:25%}.col-xs-2{width:16.66666667%}.col-xs-1{width:8.33333333%}.col-xs-pull-12{right:100%}.col-xs-pull-11{right:91.66666667%}.col-xs-pull-10{right:83.33333333%}.col-xs-pull-9{right:75%}.col-xs-pull-8{right:66.66666667%}.col-xs-pull-7{right:58.33333333%}.col-xs-pull-6{right:50%}.col-xs-pull-5{right:41.66666667%}.col-xs-pull-4{right:33.33333333%}.col-xs-pull-3{right:25%}.col-xs-pull-2{right:16.66666667%}.col-xs-pull-1{right:8.33333333%}.col-xs-pull-0{right:auto}.col-xs-push-12{left:100%}.col-xs-push-11{left:91.66666667%}.col-xs-push-10{left:83.33333333%}.col-xs-push-9{left:75%}.col-xs-push-8{left:66.66666667%}.col-xs-push-7{left:58.33333333%}.col-xs-push-6{left:50%}.col-xs-push-5{left:41.66666667%}.col-xs-push-4{left:33.33333333%}.col-xs-push-3{left:25%}.col-xs-push-2{left:16.66666667%}.col-xs-push-1{left:8.33333333%}.col-xs-push-0{left:auto}.col-xs-offset-12{margin-left:100%}.col-xs-offset-11{margin-left:91.66666667%}.col-xs-offset-10{margin-left:83.33333333%}.col-xs-offset-9{margin-left:75%}.col-xs-offset-8{margin-left:66.66666667%}.col-xs-offset-7{margin-left:58.33333333%}.col-xs-offset-6{margin-left:50%}.col-xs-offset-5{margin-left:41.66666667%}.col-xs-offset-4{margin-left:33.33333333%}.col-xs-offset-3{margin-left:25%}.col-xs-offset-2{margin-left:16.66666667%}.col-xs-offset-1{margin-left:8.33333333%}.col-xs-offset-0{margin-left:0}@media (min-width:768px){.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12{float:left}.col-sm-12{width:100%}.col-sm-11{width:91.66666667%}.col-sm-10{width:83.33333333%}.col-sm-9{width:75%}.col-sm-8{width:66.66666667%}.col-sm-7{width:58.33333333%}.col-sm-6{width:50%}.col-sm-5{width:41.66666667%}.col-sm-4{width:33.33333333%}.col-sm-3{width:25%}.col-sm-2{width:16.66666667%}.col-sm-1{width:8.33333333%}.col-sm-pull-12{right:100%}.col-sm-pull-11{right:91.66666667%}.col-sm-pull-10{right:83.33333333%}.col-sm-pull-9{right:75%}.col-sm-pull-8{right:66.66666667%}.col-sm-pull-7{right:58.33333333%}.col-sm-pull-6{right:50%}.col-sm-pull-5{right:41.66666667%}.col-sm-pull-4{right:33.33333333%}.col-sm-pull-3{right:25%}.col-sm-pull-2{right:16.66666667%}.col-sm-pull-1{right:8.33333333%}.col-sm-pull-0{right:auto}.col-sm-push-12{left:100%}.col-sm-push-11{left:91.66666667%}.col-sm-push-10{left:83.33333333%}.col-sm-push-9{left:75%}.col-sm-push-8{left:66.66666667%}.col-sm-push-7{left:58.33333333%}.col-sm-push-6{left:50%}.col-sm-push-5{left:41.66666667%}.col-sm-push-4{left:33.33333333%}.col-sm-push-3{left:25%}.col-sm-push-2{left:16.66666667%}.col-sm-push-1{left:8.33333333%}.col-sm-push-0{left:auto}.col-sm-offset-12{margin-left:100%}.col-sm-offset-11{margin-left:91.66666667%}.col-sm-offset-10{margin-left:83.33333333%}.col-sm-offset-9{margin-left:75%}.col-sm-offset-8{margin-left:66.66666667%}.col-sm-offset-7{margin-left:58.33333333%}.col-sm-offset-6{margin-left:50%}.col-sm-offset-5{margin-left:41.66666667%}.col-sm-offset-4{margin-left:33.33333333%}.col-sm-offset-3{margin-left:25%}.col-sm-offset-2{margin-left:16.66666667%}.col-sm-offset-1{margin-left:8.33333333%}.col-sm-offset-0{margin-left:0}}@media (min-width:992px){.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12{float:left}.col-md-12{width:100%}.col-md-11{width:91.66666667%}.col-md-10{width:83.33333333%}.col-md-9{width:75%}.col-md-8{width:66.66666667%}.col-md-7{width:58.33333333%}.col-md-6{width:50%}.col-md-5{width:41.66666667%}.col-md-4{width:33.33333333%}.col-md-3{width:25%}.col-md-2{width:16.66666667%}.col-md-1{width:8.33333333%}.col-md-pull-12{right:100%}.col-md-pull-11{right:91.66666667%}.col-md-pull-10{right:83.33333333%}.col-md-pull-9{right:75%}.col-md-pull-8{right:66.66666667%}.col-md-pull-7{right:58.33333333%}.col-md-pull-6{right:50%}.col-md-pull-5{right:41.66666667%}.col-md-pull-4{right:33.33333333%}.col-md-pull-3{right:25%}.col-md-pull-2{right:16.66666667%}.col-md-pull-1{right:8.33333333%}.col-md-pull-0{right:auto}.col-md-push-12{left:100%}.col-md-push-11{left:91.66666667%}.col-md-push-10{left:83.33333333%}.col-md-push-9{left:75%}.col-md-push-8{left:66.66666667%}.col-md-push-7{left:58.33333333%}.col-md-push-6{left:50%}.col-md-push-5{left:41.66666667%}.col-md-push-4{left:33.33333333%}.col-md-push-3{left:25%}.col-md-push-2{left:16.66666667%}.col-md-push-1{left:8.33333333%}.col-md-push-0{left:auto}.col-md-offset-12{margin-left:100%}.col-md-offset-11{margin-left:91.66666667%}.col-md-offset-10{margin-left:83.33333333%}.col-md-offset-9{margin-left:75%}.col-md-offset-8{margin-left:66.66666667%}.col-md-offset-7{margin-left:58.33333333%}.col-md-offset-6{margin-left:50%}.col-md-offset-5{margin-left:41.66666667%}.col-md-offset-4{margin-left:33.33333333%}.col-md-offset-3{margin-left:25%}.col-md-offset-2{margin-left:16.66666667%}.col-md-offset-1{margin-left:8.33333333%}.col-md-offset-0{margin-left:0}}@media (min-width:1200px){.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12{float:left}.col-lg-12{width:100%}.col-lg-11{width:91.66666667%}.col-lg-10{width:83.33333333%}.col-lg-9{width:75%}.col-lg-8{width:66.66666667%}.col-lg-7{width:58.33333333%}.col-lg-6{width:50%}.col-lg-5{width:41.66666667%}.col-lg-4{width:33.33333333%}.col-lg-3{width:25%}.col-lg-2{width:16.66666667%}.col-lg-1{width:8.33333333%}.col-lg-pull-12{right:100%}.col-lg-pull-11{right:91.66666667%}.col-lg-pull-10{right:83.33333333%}.col-lg-pull-9{right:75%}.col-lg-pull-8{right:66.66666667%}.col-lg-pull-7{right:58.33333333%}.col-lg-pull-6{right:50%}.col-lg-pull-5{right:41.66666667%}.col-lg-pull-4{right:33.33333333%}.col-lg-pull-3{right:25%}.col-lg-pull-2{right:16.66666667%}.col-lg-pull-1{right:8.33333333%}.col-lg-pull-0{right:auto}.col-lg-push-12{left:100%}.col-lg-push-11{left:91.66666667%}.col-lg-push-10{left:83.33333333%}.col-lg-push-9{left:75%}.col-lg-push-8{left:66.66666667%}.col-lg-push-7{left:58.33333333%}.col-lg-push-6{left:50%}.col-lg-push-5{left:41.66666667%}.col-lg-push-4{left:33.33333333%}.col-lg-push-3{left:25%}.col-lg-push-2{left:16.66666667%}.col-lg-push-1{left:8.33333333%}.col-lg-push-0{left:auto}.col-lg-offset-12{margin-left:100%}.col-lg-offset-11{margin-left:91.66666667%}.col-lg-offset-10{margin-left:83.33333333%}.col-lg-offset-9{margin-left:75%}.col-lg-offset-8{margin-left:66.66666667%}.col-lg-offset-7{margin-left:58.33333333%}.col-lg-offset-6{margin-left:50%}.col-lg-offset-5{margin-left:41.66666667%}.col-lg-offset-4{margin-left:33.33333333%}.col-lg-offset-3{margin-left:25%}.col-lg-offset-2{margin-left:16.66666667%}.col-lg-offset-1{margin-left:8.33333333%}.col-lg-offset-0{margin-left:0}}.clearfix:before,.clearfix:after,.container:before,.container:after,.container-fluid:before,.container-fluid:after,.row:before,.row:after{content:" ";display:table}.clearfix:after,.container:after,.container-fluid:after,.row:after{clear:both}.center-block{display:block;margin-left:auto;margin-right:auto}.pull-right{float:right !important}.pull-left{float:left !important}.hide{display:none !important}.show{display:block !important}.invisible{visibility:hidden}.text-hide{font:0/0 a;color:transparent;text-shadow:none;background-color:transparent;border:0}.hidden{display:none !important}.affix{position:fixed}@-ms-viewport{width:device-width}.visible-xs,.visible-sm,.visible-md,.visible-lg{display:none !important}.visible-xs-block,.visible-xs-inline,.visible-xs-inline-block,.visible-sm-block,.visible-sm-inline,.visible-sm-inline-block,.visible-md-block,.visible-md-inline,.visible-md-inline-block,.visible-lg-block,.visible-lg-inline,.visible-lg-inline-block{display:none !important}@media (max-width:767px){.visible-xs{display:block !important}table.visible-xs{display:table}tr.visible-xs{display:table-row !important}th.visible-xs,td.visible-xs{display:table-cell !important}}@media (max-width:767px){.visible-xs-block{display:block !important}}@media (max-width:767px){.visible-xs-inline{display:inline !important}}@media (max-width:767px){.visible-xs-inline-block{display:inline-block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm{display:block !important}table.visible-sm{display:table}tr.visible-sm{display:table-row !important}th.visible-sm,td.visible-sm{display:table-cell !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-block{display:block !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline{display:inline !important}}@media (min-width:768px) and (max-width:991px){.visible-sm-inline-block{display:inline-block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md{display:block !important}table.visible-md{display:table}tr.visible-md{display:table-row !important}th.visible-md,td.visible-md{display:table-cell !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-block{display:block !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline{display:inline !important}}@media (min-width:992px) and (max-width:1199px){.visible-md-inline-block{display:inline-block !important}}@media (min-width:1200px){.visible-lg{display:block !important}table.visible-lg{display:table}tr.visible-lg{display:table-row !important}th.visible-lg,td.visible-lg{display:table-cell !important}}@media (min-width:1200px){.visible-lg-block{display:block !important}}@media (min-width:1200px){.visible-lg-inline{display:inline !important}}@media (min-width:1200px){.visible-lg-inline-block{display:inline-block !important}}@media (max-width:767px){.hidden-xs{display:none !important}}@media (min-width:768px) and (max-width:991px){.hidden-sm{display:none !important}}@media (min-width:992px) and (max-width:1199px){.hidden-md{display:none !important}}@media (min-width:1200px){.hidden-lg{display:none !important}}.visible-print{display:none !important}@media print{.visible-print{display:block !important}table.visible-print{display:table}tr.visible-print{display:table-row !important}th.visible-print,td.visible-print{display:table-cell !important}}.visible-print-block{display:none !important}@media print{.visible-print-block{display:block !important}}.visible-print-inline{display:none !important}@media print{.visible-print-inline{display:inline !important}}.visible-print-inline-block{display:none !important}@media print{.visible-print-inline-block{display:inline-block !important}}@media print{.hidden-print{display:none !important}}</style>
 	<!-- Header CSS (First Sections of Website: compress & paste after release from _header.css here) -->
 	<style>.main-btn { 
-    max-width:470px;
-    height:65px;
-    line-height:60px;
-    font-family: 'Rubik-Bold', sans-serif;
-    font-weight: 400;
-    color: #fff;
-    border-radius: 50px;}
-    .main-btn:hover {
-        color: #fff;
-    }
+		max-width:470px;
+		height:65px;
+		line-height:60px;
+		font-family: 'Rubik-Bold', sans-serif;
+		font-weight: 400;
+		color: #fff;
+		border-radius: 50px;}
+		.main-btn:hover {
+			color: #fff;
+		}
 
- .btn-red {
-    background-color: #67274f;
-    box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.75);}
-    .btn-red:hover {
-        background: #792d5d;
-        box-shadow: 0px 7px 10px 0px rgba(50, 50, 50, 0.75);
-    }
-</style>
+		.btn-red {
+			background-color: #67274f;
+			box-shadow: 0px 2px 10px 0px rgba(50, 50, 50, 0.75);}
+			.btn-red:hover {
+				background: #792d5d;
+				box-shadow: 0px 7px 10px 0px rgba(50, 50, 50, 0.75);
+			}
+		</style>
 
-	<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
-	<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
-	
-	<!-- Load CSS Compilled without JS -->
-	<noscript><link rel="stylesheet" href="style.min.css"></noscript>
+		<!-- Fonts Loader from _fonts.css (HTML5 LocalStorage) -->
+		<script>!function(){function e(e,t,n){e.addEventListener?e.addEventListener(t,n,!1):e.attachEvent&&e.attachEvent("on"+t,n)}function t(e){return window.localStorage&&localStorage.font_css_cache&&localStorage.font_css_cache_file===e}function n(){if(window.localStorage&&window.XMLHttpRequest)if(t(o))a(localStorage.font_css_cache);else{var n=new XMLHttpRequest;n.open("GET",o,!0),e(n,"load",function(){4===n.readyState&&(a(n.responseText),localStorage.font_css_cache=n.responseText,localStorage.font_css_cache_file=o)}),n.send()}else{var c=document.createElement("link");c.href=o,c.rel="stylesheet",c.type="text/css",document.getElementsByTagName("head")[0].appendChild(c),document.cookie="font_css_cache"}}function a(e){var t=document.createElement("style");t.innerHTML=e,document.getElementsByTagName("head")[0].appendChild(t)}var o="_fonts.css";window.localStorage&&localStorage.font_css_cache||document.cookie.indexOf("font_css_cache")>-1?n():e(window,"load",n)}();</script>
 
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<!-- Load CSS Compilled without JS -->
+		<noscript><link rel="stylesheet" href="style.min.css"></noscript>
 
-	<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
-	<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
-	<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
-	<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<link rel="shortcut icon" href="img/favicon/favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" href="img/favicon/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-touch-icon-114x114.png">
 
 
-</head>
+	</head>
 
-<body>
-	<div class="loader">
-        <div class="loader_inner"></div>
-    </div>
-    <div class="remodal-bg">
-		
-		<section class="our-company">
-            <div class="container clearfix">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="main-headline our-company_head">Наша компания – это ответственный 
-						<br>и комплексный подход</h2>
-					</div>
-				</div>
-				<div class="our-company-item-wrap">
-					<div class="row"> 
-						<div class="col-sm-5"> 
-							<div class="our-company-working company-working__item--1">	 
-								<div class="our-company-content-wrap our-company-content-wrap-two"> 
-									<div class="our-company-content"> 
-										<span>70 сотрудников</span>
-										<p>В нашей компании работает 70 сотрудников. Все они узкопрофильные специалисты, и каждый из них доводит до идеала любую мелочь в своей работе, за которую несет ответственность.</p> 
-									</div> 
-								</div> 
-							</div> 
-						</div> 
-						<div class="col-sm-7"> 
-							<div class="our-company-working our-company__item--2"> 
-								<img src="img/our-company-employees.png" alt="our-company-employees"> 
-							</div> 
-						</div> 
-					</div>
-				</div>
-				<div class="our-company-item-wrap-1">
-					<div class="row"> 
-						<div class="col-sm-5 col-sm-push-7"> 
-							<div class="our-company-working company-working__item--1">	 
-								<div class="our-company-content-wrap"> 
-									<div class="our-company-content"> 
-										<span>310 000 м2 в безопасности</span>
-										<p>Уже более 310 000 м2 мы обеспечили видеонаблюдением и другими системами безопасности. Среди наших заказчиков «Укргаздобыча», «Укрзалізниця» и проект «Безопасный город» в Чугуеве.</p> 
-									</div> 
-								</div> 
-							</div> 
-						</div> 
-						<div class="col-sm-7 col-sm-pull-5"> 
-							<div class="our-company-working our-company__item--2"> 
-								<img src="img/our-company-security.png" alt="our-company-security"> 
-							</div> 
-						</div>   
-					</div>
-				</div>
-				<div class="our-company-item-wrap">
-					<div class="row"> 
-						<div class="col-sm-5"> 
-							<div class="our-company-working company-working__item--1">	 
-								<div class="our-company-content-wrap"> 
-									<div class="our-company-content our-company-content-wrap-two"> 
-										<span>Собственный проектный отдел</span>
-										<p>Мы можем смело взяться за проект любой сложности, ведь у нас есть собственный проектный отдел. Чем может похвастаться далеко не каждая компания.</p> 
-									</div> 
-								</div> 
-							</div> 
-						</div> 
-						<div class="col-sm-7"> 
-							<div class="our-company-working our-company__item--2"> 
-								<img src="img/our-company-division.png" alt="our-company-division"> 
-							</div> 
-						</div> 
-					</div>
-				</div>
-				<div class="our-company-item-wrap-1 our-company-item-wrap-two">
-					<div class="row"> 
-						<div class="col-sm-5 col-sm-push-7"> 
-							<div class="our-company-working company-working__item--1">	 
-								<div class="our-company-content-wrap"> 
-									<div class="our-company-content our-company-content__license"> 
-										<span>Лицензия на услуги</span>
-										<p>Работаем прозрачно и имеем лицензию услуги, которые предоставляем. Каждый этап реализации проекта фиксируется подписанием договора, что гарантирует выполнение нами своих обязательств перед клиентом.</p>
-										 <div class="view-license">
-										 	<a class="btn main-btn btn-red btn-license" href="#">Посмотреть лицензию</a>
-										 </div>		
-									</div> 
-								</div> 
-							</div> 
-						</div> 
-						<div class="col-sm-7 col-sm-pull-5"> 
-							<div class="our-company-working company-working__item our-company__item--2 our-company__item--3"> 
-								<img src="img/our-company-license.png" alt="our-company-license"> 
-							</div> 
-						</div>   
-					</div>
-				</div>
-            </div>
-        </section>
-
-        <section class="video">
-            <div class="container clearfix">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="main-headline">Посмотрите короткое видео</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-8 col-sm-offset-2">
-						<div class="video__wrap">
-							<img src="img/video.jpg" alt="video">
-						</div>
-					</div>
-				</div>
-            </div>
-            <div class="video__substrate"></div>
-        </section>
-
-        <section class="you-need-security">
-            <div class="container clearfix">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="main-headline you-need-security__head">Вам нужна система безопасности, если...</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-4">
-						<div class="cloud-wrap cloud-wrap__item-1">
-							<p>... у Вас есть домработница/няня, и Вы хотите всегда контролировать ее работу, особенно в Ваше отсутствие.</p>
-						</div>
-						<div class="cloud-wrap cloud-wrap__item-2">
-							<p>... Вы часто бываете в командировках,<br> и Вам необходимо наблюдать за ситуацией дома.</p>
-						</div>
-						<div class="cloud-wrap cloud-wrap__item-3">
-							<p>... Вы затеяли ремонт, но не можете постоянно сидеть дома и контролировать рабочих.</p>
-						</div>
-					</div>
-					<div class="col-sm-4">
-						<div class="cloud-wrap cloud-wrap__item-4">
-							<p>... у Вас есть дача/загородный дом, куда Вы редко наведываетесь, но хотите контролировать ситуацию там.</p>
-						</div>
-						<div class="men-wrap"></div>
-					</div>
-					<div class="col-sm-4">
-						<div class="cloud-wrap cloud-wrap__item-1">
-							<p>... дети остаются сами дома,<br> и Вы хотите присматривать за ними, пока находитесь на работе</p>
-						</div>
-						<div class="cloud-wrap cloud-wrap__item-2">
-							<p>… у Вас есть гараж, который должен всегда находится под контролем <br>во избежание неприятных ситуаций.</p>
-						</div>
-						<div class="cloud-wrap cloud-wrap__item-3">
-							<p>... Вы путешествуете всей семьей и хотите присматривать за домом/квартирой в любом уголке мира с помощью телефона/планшета/ноутбука.</p>
-						</div>
-					</div>
-				</div>
-            </div>
-        </section>
-
-        <section class="form-bottom">
-            <div class="container clearfix">
-            	<div class="row">
-            		<div class="col-sm-7">
-            			<div class="form-bottom__head">
-            				<h2>Мы установим систему безопасности
-            				<span>которая решит все эти проблемы</span></h2>  	
-            			</div>
-            			<div class="form-bottom__content">
-            				<p><span>Заполните форму,</span> чтобы оставить заявку на бесплатный выезд специалиста и <span>получите сразу 2 подарка:</span></p>
-            				<div class="form-bottom__content--description">
-            					<p>• <span>3 варианта</span> решения под разный бюджет</p>
-            					<p>• <span>Сертификат</span> на бесплатное обслуживание оборудования</p>
-            				</div>
-            			</div>
-            		</div>
-            	</div>
-            </div>
-        </section>
-
-        <section class="our-clients">
-            <div class="container clearfix">
-				<div class="row">
-					<div class="col-md-12">
-						<h2 class="main-headline">Компании, которые доверили нам <br>свою безопасность</h2>
-					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-3">
-						<div class="our-clients__content-wrap">
-							<div class="our-clients__content-wrap--item">
-								<img src="img/gameloft.jpg" alt="gameloft">
-							</div>
-							<div class="our-clients__content-wrap--item">
-								<img src="img/uz.jpg" alt="uz">
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="our-clients__content-wrap">
-							<div class="our-clients__content-wrap--item">
-								<img src="img/privatbank.jpg" alt="privatbank">
-							</div>
-							<div class="our-clients__content-wrap--item">
-								<img src="img/lementa.jpg" alt="ementa">
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="our-clients__content-wrap">
-							<div class="our-clients__content-wrap--item">
-								<img src="img/kurjagskiy.jpg" alt="kurjagskiy">
-							</div>
-							<div class="our-clients__content-wrap--item">
-								<img src="img/td-tisk.jpg" alt="td-tisk">
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-3">
-						<div class="our-clients__content-wrap">
-							<div class="our-clients__content-wrap--item">
-								<img src="img/losck.jpg" alt="losck">
-							</div>
-							<div class="our-clients__content-wrap--item">
-								<img src="img/ukr-gaz.jpg" alt="ukr-gaz">
-							</div>
-						</div>
-					</div>
-				</div>
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-				<div class="row">
-    				<div class="col-sm-10 col-sm-offset-1">
-    					<div id="slider" class="owl-carousel owl-theme">
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						</div>
-    				</div>
-    			</div>
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-				<div class="row">
-    				<div class="col-sm-10 col-sm-offset-1">
-    					<div id="slider-1" class="owl-carousel owl-theme">
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						    <div>Slide</div>
-						</div>
-    				</div>
-    			</div>
-            </div>
-        </section>
-
-        
-
-        <section class="">
-            <div class="container clearfix">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-
-            </div>
-        </section>
-
-        <section class="">
-            <div class="container clearfix">
-				
-            </div>
-        </section>
-
-        <footer class="main-footer">
-            <div class="container clearfix">
-				<div class="row">
-        			<div class="col-sm-8">
-						<div id="map" class="map">
-	        		</div>
-	        	</div>
-            </div>
-        </footer>
-    </div>
-    <!-- Модальное окно -->
-	<div class="remodal" data-remodal-id="modal" role="dialog">
-		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-		<div>
-			<h2>Заполните форму</h2>
-			<p>и наш специалист свяжется с Вами в течение 15 минут</p>
-			<form action="form-control/mail.php" method="post" class="main-form" id="modal-form" name="main-form">
-			    <!-- Hidden Required Fields -->
-			    <input type="hidden" name="project_name" value="vilar-agro">
-			    <input type="hidden" name="admin_email" value="vilaragro@gmail.com">
-			    <input type="hidden" name="form_subject" value="Заявка с сайта «Вилар-Агро»">
-			    <!-- END Hidden Required Fields -->   
-				<div class="input-group">
-					<input type="text"  name="name" placeholder="Ваше имя" required>
-				</div>
-				<div class="input-group">
-					<input type="email"  name="email" placeholder="Ваш e-mail" required>
-				</div>
-				<div class="input-group">
-					<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
-				</div>	
-			    <input type="hidden"  name="s_formi" value="Получить консультацию">
-				<button type="submit" name="submit" class="btn btn-blue modal-btn">Получить консультацию</button>
-			</form>
+	<body>
+		<div class="loader">
+			<div class="loader_inner"></div>
 		</div>
-		<br>
-	</div>
-	<!-- Конец Модальное окно  -->
-	<!--  модальное окно политика конфиденциальности -->
-	<div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
-		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-		<div id="policy" class="mfp-hide white-popup-block">
-			<div class="policy-confidential">
-				<h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
-				<p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет.</p>
-				<p>Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать личную информацию в особых случаях, описанных в "Согласии с рассылкой"</p>
-				<h2>Какие данные собираются на сайте</h2>
-				<p>При добровольной регистрации Вы отправляете свое Имя, телефон и E-mail через форму регистрации.</p>
-				<h2>С какой целью собираются эти данные</h2>
-				<p>Имя используется для обращения лично к Вам, а ваш e-mail и телефон для отправки Вам писем рассылок, новостей, полезных материалов, коммерческих предложений.</p>
-				<p>Ваши имя, телефон и e-mail не передаются третьим лицам, ни при каких условиях кроме случаев, связанных с исполнением требований законодательства. Ваше имя, телефон и e-mail на защищенных серверах сервиса getresponse.com и используются в соответствии с его политикой конфиденциальности.</p>
-				<p>Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные в любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме.</p>
-				<h2>Как эти данные используются</h2>
-				<p>На сайте www.hodi.com.ua используются куки (Cookies) и данные о посетителях сервиса Google Analytics.</p>
-				<p>При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения его содержания, улучшения функциональных возможностей сайта и, как следствие, создания качественного контента и сервисов для посетителей.</p>
-				<p>Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все файлы cookie или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и сервисы не смогут работать должным образом.</p>
-				<h2>Как эти данные защищаются</h2>
-				<p>Для защиты Вашей личной информации мы используем разнообразные административные, управленческие и технические меры безопасности. Наша Компания придерживается различных международных стандартов контроля, направленных на операции с личной информацией, которые включают определенные меры контроля по защите информации, собранной в Интернет.</p>
-				<p>Наших сотрудников обучают понимать и выполнять эти меры контроля, они ознакомлены с нашим Уведомлением о конфиденциальности, нормами и инструкциями. Тем не менее, несмотря на то, что мы стремимся обезопасить Вашу личную информацию, Вы тоже должны принимать меры, чтобы защитить ее.</p>
-				<p>Мы настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания в Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки, несанкционированного использования и изменения информации, которую мы контролируем. Несмотря на то, что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и систем, мы не можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к этой информации хакеров сторонних организаций.</p>
-				<p>В случае изменения данной политики конфиденциальности Вы сможете прочитать об этих изменениях на этой странице или, в особых случаях, получить уведомление на свой e-mail.</p>
-				<p>Для связи с администратором сайта по любым вопросам Вы можете написать письмо на e-mail: hodi.legko@gmail.com</p>
-			</div>
-		</div>
-	</div>
-	<!-- /форма модальное окно политика конфиденциальности-->
+		<div class="remodal-bg">
 
-	<script src="libs/jquery/jquery-1.11.2.min.js"></script>   
+			<section class="our-company">
+				<div class="container clearfix">
+					<div class="row">
+						<div class="col-md-12">
+							<h2 class="main-headline our-company_head">Наша компания – это ответственный 
+								<br>и комплексный подход</h2>
+							</div>
+						</div>
+						<div class="our-company-item-wrap">
+							<div class="row"> 
+								<div class="col-sm-5"> 
+									<div class="our-company-working company-working__item--1">	 
+										<div class="our-company-content-wrap our-company-content-wrap-two"> 
+											<div class="our-company-content"> 
+												<span>70 сотрудников</span>
+												<p>В нашей компании работает 70 сотрудников. Все они узкопрофильные специалисты, и каждый из них доводит до идеала любую мелочь в своей работе, за которую несет ответственность.</p> 
+											</div> 
+										</div> 
+									</div> 
+								</div> 
+								<div class="col-sm-7"> 
+									<div class="our-company-working our-company__item--2"> 
+										<img src="img/our-company-employees.png" alt="our-company-employees"> 
+									</div> 
+								</div> 
+							</div>
+						</div>
+						<div class="our-company-item-wrap-1">
+							<div class="row"> 
+								<div class="col-sm-5 col-sm-push-7"> 
+									<div class="our-company-working company-working__item--1">	 
+										<div class="our-company-content-wrap"> 
+											<div class="our-company-content"> 
+												<span>310 000 м2 в безопасности</span>
+												<p>Уже более 310 000 м2 мы обеспечили видеонаблюдением и другими системами безопасности. Среди наших заказчиков «Укргаздобыча», «Укрзалізниця» и проект «Безопасный город» в Чугуеве.</p> 
+											</div> 
+										</div> 
+									</div> 
+								</div> 
+								<div class="col-sm-7 col-sm-pull-5"> 
+									<div class="our-company-working our-company__item--2"> 
+										<img src="img/our-company-security.png" alt="our-company-security"> 
+									</div> 
+								</div>   
+							</div>
+						</div>
+						<div class="our-company-item-wrap">
+							<div class="row"> 
+								<div class="col-sm-5"> 
+									<div class="our-company-working company-working__item--1">	 
+										<div class="our-company-content-wrap"> 
+											<div class="our-company-content our-company-content-wrap-two"> 
+												<span>Собственный проектный отдел</span>
+												<p>Мы можем смело взяться за проект любой сложности, ведь у нас есть собственный проектный отдел. Чем может похвастаться далеко не каждая компания.</p> 
+											</div> 
+										</div> 
+									</div> 
+								</div> 
+								<div class="col-sm-7"> 
+									<div class="our-company-working our-company__item--2"> 
+										<img src="img/our-company-division.png" alt="our-company-division"> 
+									</div> 
+								</div> 
+							</div>
+						</div>
+						<div class="our-company-item-wrap-1 our-company-item-wrap-two">
+							<div class="row"> 
+								<div class="col-sm-5 col-sm-push-7"> 
+									<div class="our-company-working company-working__item--1">	 
+										<div class="our-company-content-wrap"> 
+											<div class="our-company-content our-company-content__license"> 
+												<span>Лицензия на услуги</span>
+												<p>Работаем прозрачно и имеем лицензию услуги, которые предоставляем. Каждый этап реализации проекта фиксируется подписанием договора, что гарантирует выполнение нами своих обязательств перед клиентом.</p>
+												<div class="view-license popup-gallery">
+													<a class="popup-modal btn main-btn btn-red btn-license" href="#test-modal">Посмотреть лицензию</a>
+													<div id="test-modal" class="mfp-hide white-popup-block">
+														<div id="slider-1" class="owl-carousel owl-theme">
+															<div>
+																<div class="license">
+																	<div class="license-slide">
+																		<img src="img/license-1.jpeg" alt="license-1">
+																	</div>
+																</div>
+															</div>
+															<div>
+																<div class="license-slide">
+																	<img src="img/license-2.jpeg" alt="license-2">
+																</div>
+															</div>
+														</div>						
+													</div>		
+												</div>		
+											</div> 
+										</div> 
+									</div> 
+								</div> 
+								<div class="col-sm-7 col-sm-pull-5"> 
+									<div class="our-company-working company-working__item our-company__item--2 our-company__item--3"> 
+										<img src="img/our-company-license.png" alt="our-company-license"> 
+									</div> 
+								</div>   
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="video">
+					<div class="container clearfix">
+						<div class="row">
+							<div class="col-md-12">
+								<h2 class="main-headline">Посмотрите короткое видео</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-8 col-sm-offset-2">
+								<div class="video__wrap">
+									<img src="img/video.jpg" alt="video">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="video__substrate"></div>
+				</section>
+
+				<section class="you-need-security">
+					<div class="container clearfix">
+						<div class="row">
+							<div class="col-md-12">
+								<h2 class="main-headline you-need-security__head">Вам нужна система безопасности, если...</h2>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-sm-4">
+								<div class="cloud-wrap cloud-wrap__item-1 cloud-wrap__item-1--one">
+									<p>... у Вас есть домработница/няня, и Вы хотите всегда контролировать ее работу, особенно в Ваше отсутствие.</p>
+								</div>
+								<div class="cloud-wrap cloud-wrap__item-2 cloud-wrap__item-1--two">
+									<p>... Вы часто бываете в командировках,<br> и Вам необходимо наблюдать за ситуацией дома.</p>
+								</div>
+								<div class="cloud-wrap cloud-wrap__item-3 cloud-wrap__item-1--three">
+									<p>... Вы затеяли ремонт, но не можете постоянно сидеть дома и контролировать рабочих.</p>
+								</div>
+							</div>
+							<div class="col-sm-4">
+								<div class="cloud-wrap cloud-wrap__item-4 cloud-wrap__item-1--four">
+									<p>... у Вас есть дача/загородный дом, куда Вы редко наведываетесь, но хотите контролировать ситуацию там.</p>
+								</div>
+								<div class="men-wrap"></div>
+							</div>
+							<div class="col-sm-4">
+								<div class="cloud-wrap cloud-wrap__item-1 cloud-wrap__item-1--five">
+									<p>... дети остаются сами дома,<br> и Вы хотите присматривать за ними, пока находитесь на работе</p>
+								</div>
+								<div class="cloud-wrap cloud-wrap__item-2 cloud-wrap__item-1--six">
+									<p>… у Вас есть гараж, который должен всегда находится под контролем <br>во избежание неприятных ситуаций.</p>
+								</div>
+								<div class="cloud-wrap cloud-wrap__item-3 cloud-wrap__item-1--seven">
+									<p>... Вы путешествуете всей семьей и хотите присматривать за домом/квартирой в любом уголке мира с помощью телефона/планшета/ноутбука.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="form-bottom">
+					<div class="container clearfix">
+						<div class="row">
+							<div class="col-sm-7">
+								<div class="form-bottom__head">
+									<h2>Мы установим систему безопасности
+										<span>которая решит все эти проблемы!</span></h2>  	
+									</div>
+									<div class="form-bottom__content">
+										<p><span>Заполните форму,</span> чтобы оставить заявку на бесплатный выезд специалиста и <span>получите сразу 2 бонуса:</span></p>
+										<div class="form-bottom__content--description">
+											<p>• <span>3 варианта</span> решения под разный бюджет</p>
+											<p>• <span>Сертификат</span> на бесплатное обслуживание оборудования</p>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<form action="form-control/mail.php" method="post" class="main-screen-form" id="main-form" name="main-form">  
+									<!-- Hidden Required Fields -->
+									<input type="hidden" name="project_name" value="security-lp">
+									<input type="hidden" name="admin_email" value="lebigan55@gmail.com">
+									<input type="hidden" name="form_subject" value="Заявка с лендинга security-lp">
+									<!-- END Hidden Required Fields -->  
+
+									<div class="col-md-3">
+										<div class="input-group">
+											<input type="text"  name="name" id="name"  placeholder="Ваше имя" required>
+										</div>
+									</div>                 
+
+									<div class="col-md-3">
+										<div class="input-group">
+											<input type="text"  name="phone" id="phone" placeholder="Ваш телефон" required>
+										</div>
+									</div> 
+
+									<div class="col-md-3">
+										<div class="input-group">
+											<input type="text"  name="email" id="email" placeholder="Ваш email" required>
+										</div>
+									</div>  
+
+									<div class="col-md-3">
+										<div class="main-screen-form-btn">
+											<input type="hidden"  name="s_formi" value="Получить 2 подарка">
+
+											<button type="submit" name="submit" class="btn bottom-form-btn main-btn btn-red">Получить 2 бонуса</button>
+										</div>
+									</div>
+								</form>	 <!-- end form -->
+							</div>
+						</div>
+					</section>
+
+					<section class="our-clients">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-12">
+									<h2 class="main-headline">Компании, которые доверили нам <br>свою безопасность</h2>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-3 col-xs-6">
+									<div class="our-clients__content-wrap">
+										<div class="our-clients__content-wrap--item">
+											<img src="img/gameloft.jpg" alt="gameloft">
+										</div>
+										<div class="our-clients__content-wrap--item">
+											<img src="img/uz.jpg" alt="uz">
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="our-clients__content-wrap">
+										<div class="our-clients__content-wrap--item">
+											<img src="img/privatbank.jpg" alt="privatbank">
+										</div>
+										<div class="our-clients__content-wrap--item">
+											<img src="img/lementa.jpg" alt="ementa">
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="our-clients__content-wrap">
+										<div class="our-clients__content-wrap--item">
+											<img src="img/kurjagskiy.jpg" alt="kurjagskiy">
+										</div>
+										<div class="our-clients__content-wrap--item">
+											<img src="img/td-tisk.jpg" alt="td-tisk">
+										</div>
+									</div>
+								</div>
+								<div class="col-sm-3 col-xs-6">
+									<div class="our-clients__content-wrap">
+										<div class="our-clients__content-wrap--item">
+											<img src="img/losck.jpg" alt="losck">
+										</div>
+										<div class="our-clients__content-wrap--item">
+											<img src="img/ukr-gaz.jpg" alt="ukr-gaz">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="compilited-projects">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-12">
+									<div class="project-headline">
+										<h2 class="main-headline">Реализованные нами проекты:</h2>
+									</div>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-12">
+									<div id="slider" class="owl-carousel owl-theme">
+										<div>
+											<div class="project-slide-row">
+												<div class="project-slide">
+													<div class="project-slide__headline">
+														<h3>Система видеонаблюдения ООО «Лидер»</h3>
+													</div>							
+													<div class="project-slide__text">
+														<div class="project-slide__task">   
+															<p><span>Задача:</span> Создать систему видеонаблюдения производителя компрессорного оборудования в производственных помещениях, офисах и магазинах.</p>
+														</div>
+														<div class="project-slide__decision">
+															<p><span>Pешение:</span> Установлена HDCVI система видеонаблюдения ТМ Dahua с выводом видеопотоков на компьютеры мониторинга и мобильные телефоны ответственных лиц.</p>
+														</div>
+														<div class="project-slide__result">
+															<p><span>Результат:</span>Внедренная система позволила руководству компании в режиме реального времени отслеживать все производственные процессы и удаленно контролировать подразделения, которые находятся в разных частях города. В результате повысилась производительность труда, уменьшились случаи нарушения трудовой дисциплины. Появилась возможность демонстрации производственного процесса для покупателей компрессорного оборудования.</p>
+														</div>
+													</div>
+												</div>
+												<div class="project-slide-two">
+													<div class="project-slide-picture-after project-slide-picture-after-1 active" style="display: block;">
+														<img src="img/complited-projects-item.jpg" alt="complited-projects-item">
+													</div>
+													<div class="project-slide-picture-after project-slide-picture-after-2" style="display: none;">
+														<img src="img/complited-projects-item.jpg" alt="complited-projects-item">
+													</div>
+													<div class="project-slide-picture-after project-slide-picture-after-3" style="display: none;">
+														<img src="img/complited-projects-item.jpg" alt="complited-projects-item">
+													</div>
+													<div class="slide-picture-after-two-wrap">
+														<ul>
+															<li>
+																<div class="slide-picture-after-two slide-picture-switch-1">
+																	<img src="img/complited-projects-item-1.jpg" alt="complited-projects-item-1">
+																</div>
+															</li>
+															<li>
+																<div class="slide-picture-after-two slide-picture-switch-2">
+																	<img src="img/complited-projects-item-2.jpg" alt="complited-projects-item-2">
+																</div>
+															</li>
+															<li>
+																<div class="slide-picture-after-two slide-picture-switch-3">
+																	<img src="img/complited-projects-item-3.jpg" alt="complited-projects-item-3">
+																</div>
+															</li>					
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="project-slide-row">
+												<div class="project-slide">
+													<div class="project-slide__headline">
+														<h3>Система видеонаблюдения ООО «Лидер»</h3>
+													</div>							
+													<div class="project-slide__text">
+														<div class="project-slide__task">   
+															<p><span>Задача:</span> Создать систему видеонаблюдения производителя компрессорного оборудования в производственных помещениях, офисах и магазинах.</p>
+														</div>
+														<div class="project-slide__decision">
+															<p><span>Pешение:</span> Установлена HDCVI система видеонаблюдения ТМ Dahua с выводом видеопотоков на компьютеры мониторинга и мобильные телефоны ответственных лиц.</p>
+														</div>
+														<div class="project-slide__result">
+															<p><span>Результат:</span>Внедренная система позволила руководству компании в режиме реального времени отслеживать все производственные процессы и удаленно контролировать подразделения, которые находятся в разных частях города. В результате повысилась производительность труда, уменьшились случаи нарушения трудовой дисциплины. Появилась возможность демонстрации производственного процесса для покупателей компрессорного оборудования.</p>
+														</div>
+													</div>
+												</div>
+												<div class="project-slide-two">
+													<div class="project-slide-picture-after">
+														<img src="img/complited-projects-item.jpg" alt="complited-projects-item">
+													</div>
+													<div class="slide-picture-after-two-wrap">
+														<ul>
+															<li>
+																<div class="slide-picture-after-two">
+																	<img src="img/complited-projects-item-1.jpg" alt="complited-projects-item-1">
+																</div>
+															</li>
+															<li>
+																<div class="slide-picture-after-two">
+																	<img src="img/complited-projects-item-2.jpg" alt="complited-projects-item-2">
+																</div>
+															</li>
+															<li>
+																<div class="slide-picture-after-two">
+																	<img src="img/complited-projects-item-3.jpg" alt="complited-projects-item-3">
+																</div>
+															</li>					
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div>
+											<div class="project-slide-row">
+												<div class="project-slide">
+													<div class="project-slide__headline">
+														<h3>Система видеонаблюдения ООО «Лидер»</h3>
+													</div>							
+													<div class="project-slide__text">
+														<div class="project-slide__task">   
+															<p><span>Задача:</span> Создать систему видеонаблюдения производителя компрессорного оборудования в производственных помещениях, офисах и магазинах.</p>
+														</div>
+														<div class="project-slide__decision">
+															<p><span>Pешение:</span> Установлена HDCVI система видеонаблюдения ТМ Dahua с выводом видеопотоков на компьютеры мониторинга и мобильные телефоны ответственных лиц.</p>
+														</div>
+														<div class="project-slide__result">
+															<p><span>Результат:</span>Внедренная система позволила руководству компании в режиме реального времени отслеживать все производственные процессы и удаленно контролировать подразделения, которые находятся в разных частях города. В результате повысилась производительность труда, уменьшились случаи нарушения трудовой дисциплины. Появилась возможность демонстрации производственного процесса для покупателей компрессорного оборудования.</p>
+														</div>
+													</div>
+												</div>
+												<div class="project-slide-two">
+													<div class="project-slide-picture-after">
+														<img src="img/complited-projects-item.jpg" alt="complited-projects-item">
+													</div>
+													<div class="slide-picture-after-two-wrap">
+														<ul>
+															<li>
+																<div class="slide-picture-after-two">
+																	<img src="img/complited-projects-item-1.jpg" alt="complited-projects-item-1">
+																</div>
+															</li>
+															<li>
+																<div class="slide-picture-after-two">
+																	<img src="img/complited-projects-item-2.jpg" alt="complited-projects-item-2">
+																</div>
+															</li>
+															<li>
+																<div class="slide-picture-after-two">
+																	<img src="img/complited-projects-item-3.jpg" alt="complited-projects-item-3">
+																</div>
+															</li>					
+														</ul>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="five-steps">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-12">
+									<h2 class="main-headline">5 шагов к безопасности и контролю <br>Вашего помещения</h2>
+								</div>
+							</div>
+							<div class="five-steps__content-wrap">
+								<div class="row">
+									<div class="col-sm-4">
+										<div class="five-steps__content-wrap--items contant-wrap--step-1">
+											<img src="img/step-1.jpg" alt="step-1">
+										</div>
+										<div class="five-steps__content-wrap--description">
+											<p>Вы оставляете заявку, наш специалист перезванивает Вам в течение 15 минут, и Вы договариваетесь о выезде на объект.</p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="five-steps__content-wrap--items contant-wrap--step-2">
+											<img src="img/step-2.jpg" alt="step-2">
+										</div>
+										<div class="five-steps__content-wrap--description">
+											<p>Специалист приезжает на объект, изучает его, составляет схему и смету будущего проекта.</p>
+										</div>
+									</div>
+									<div class="col-sm-4">
+										<div class="five-steps__content-wrap--items contant-wrap--step-3">
+											<img src="img/step-3.jpg" alt="step-3">
+										</div>
+										<div class="five-steps__content-wrap--description">
+											<p>Подписываем договор на проектирование и выставляем счет. Вы вносите предоплату и мы составляем договор на монтаж.</p>
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-md-3">
+										<div class="five-steps__application">
+											<a href=""  class="btn main-btn btn-red btn-application">Оставить заявку</a>					
+										</div>
+									</div>
+								</div>
+								<div class="row">
+									<div class="col-sm-6">
+										<div class="five-steps__content-wrap--items-two contant-wrap--step-4">
+											<img src="img/step-4.jpg" alt="step-4">
+										</div>
+										<div class="five-steps__content-wrap--description">
+											<p>Закупаем оборудование, устанавливаем, осуществляем пусконаладку системы.</p>
+										</div>
+									</div>
+									<div class="col-sm-6">
+										<div class="five-steps__content-wrap--items-two  contant-wrap--step-5">
+											<img src="img/step-5.jpg" alt="step-5">
+										</div>
+										<div class="five-steps__content-wrap--description">
+											<p>Вы проверяете работу, устанавливаем удаленный контроль на телефон/планшет/компьютер. Вносите остальную часть оплаты и получаете гарантию до 3 лет.</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<section class="contacts">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-sm-8">
+									<div id="map" class="map">
+									</div>
+								</div>
+								<div class="col-sm-4">
+									<div class="contacts__head">
+										<h2 class="main-headline footer-head">Как нас найти</h2>
+									</div>
+									<div class="contacts__content">
+										<p>г. Харьков,</p> 
+										<p>пр-т Московский, 257, оф. 1101</p>
+									</div>
+									<div class="contacts__phone">
+										<a href="tel:0956628080">(095) 662-80-80</a>
+										<a href="tel:0689628080">(068) 962-80-80</a>
+										<a href="tel:0639238080">(063) 923-80-80</a>
+									</div>
+									<div class="contacts__email">
+										<a href="malito:sb@gmail.com">sb@gmail.com</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</section>
+
+					<footer class="main-footer">
+						<div class="container clearfix">
+							<div class="row">
+								<div class="col-md-2">
+									<div class="main-footer__logo">
+										<img src="img/logo.png" alt="logo">
+									</div>
+								</div>
+								<div class="col-md-8">
+									<div class="main-footer__policy-conf">
+										<a href="#modal-2">Политика конфиденциальности</a>
+										<span>© 2017 «Радио-линк». Все права защищены</span>
+									</div>
+								</div>
+								<div class="col-md-2">
+									<div class="main-footer__studio-developet">
+										<span>Проект разработан</span>
+										<a href="#">КнБ Studio</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</footer>
+				</div>
+				<!-- Модальное окно -->
+				<div class="remodal" data-remodal-id="modal" role="dialog">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div>
+						<h2>Заполните форму</h2>
+						<p>и наш специалист свяжется с Вами в течение 15 минут</p>
+						<form action="form-control/mail.php" method="post" class="main-form" id="modal-form" name="main-form">
+							<!-- Hidden Required Fields -->
+							<input type="hidden" name="project_name" value="vilar-agro">
+							<input type="hidden" name="admin_email" value="vilaragro@gmail.com">
+							<input type="hidden" name="form_subject" value="Заявка с сайта «Вилар-Агро»">
+							<!-- END Hidden Required Fields -->   
+							<div class="input-group">
+								<input type="text"  name="name" placeholder="Ваше имя" required>
+							</div>
+							<div class="input-group">
+								<input type="email"  name="email" placeholder="Ваш e-mail" required>
+							</div>
+							<div class="input-group">
+								<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+							</div>	
+							<input type="hidden"  name="s_formi" value="Получить консультацию">
+							<button type="submit" name="submit" class="btn btn-blue modal-btn">Получить консультацию</button>
+						</form>
+					</div>
+					<br>
+				</div>
+				<!-- Конец Модальное окно  -->
+				<!--  модальное окно политика конфиденциальности -->
+				<div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
+					<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+					<div id="policy" class="mfp-hide white-popup-block">
+						<div class="policy-confidential">
+							<h1>ПОЛИТИКА КОНФИДЕНЦИАЛЬНОСТИ</h1>
+							<p>Ваша конфиденциальность очень важна для нас. Мы хотим, чтобы Ваша работа в Интернет по возможности была максимально приятной и полезной, и Вы совершенно спокойно использовали широчайший спектр информации, инструментов и возможностей, которые предлагает Интернет.</p>
+							<p>Личная информация Членов, собранная при регистрации (или в любое другое время) преимущественно используется для подготовки Продуктов или Услуг в соответствии с Вашими потребностями. Ваша информация не будет передана или продана третьим сторонам. Однако мы можем частично раскрывать личную информацию в особых случаях, описанных в "Согласии с рассылкой"</p>
+							<h2>Какие данные собираются на сайте</h2>
+							<p>При добровольной регистрации Вы отправляете свое Имя, телефон и E-mail через форму регистрации.</p>
+							<h2>С какой целью собираются эти данные</h2>
+							<p>Имя используется для обращения лично к Вам, а ваш e-mail и телефон для отправки Вам писем рассылок, новостей, полезных материалов, коммерческих предложений.</p>
+							<p>Ваши имя, телефон и e-mail не передаются третьим лицам, ни при каких условиях кроме случаев, связанных с исполнением требований законодательства. Ваше имя, телефон и e-mail на защищенных серверах сервиса getresponse.com и используются в соответствии с его политикой конфиденциальности.</p>
+							<p>Вы можете отказаться от получения писем рассылки и удалить из базы данных свои контактные данные в любой момент, кликнув на ссылку для отписки, присутствующую в каждом письме.</p>
+							<h2>Как эти данные используются</h2>
+							<p>На сайте www.hodi.com.ua используются куки (Cookies) и данные о посетителях сервиса Google Analytics.</p>
+							<p>При помощи этих данных собирается информация о действиях посетителей на сайте с целью улучшения его содержания, улучшения функциональных возможностей сайта и, как следствие, создания качественного контента и сервисов для посетителей.</p>
+							<p>Вы можете в любой момент изменить настройки своего браузера так, чтобы браузер блокировал все файлы cookie или оповещал об отправке этих файлов. Учтите при этом, что некоторые функции и сервисы не смогут работать должным образом.</p>
+							<h2>Как эти данные защищаются</h2>
+							<p>Для защиты Вашей личной информации мы используем разнообразные административные, управленческие и технические меры безопасности. Наша Компания придерживается различных международных стандартов контроля, направленных на операции с личной информацией, которые включают определенные меры контроля по защите информации, собранной в Интернет.</p>
+							<p>Наших сотрудников обучают понимать и выполнять эти меры контроля, они ознакомлены с нашим Уведомлением о конфиденциальности, нормами и инструкциями. Тем не менее, несмотря на то, что мы стремимся обезопасить Вашу личную информацию, Вы тоже должны принимать меры, чтобы защитить ее.</p>
+							<p>Мы настоятельно рекомендуем Вам принимать все возможные меры предосторожности во время пребывания в Интернете. Организованные нами услуги и веб-сайты предусматривают меры по защите от утечки, несанкционированного использования и изменения информации, которую мы контролируем. Несмотря на то, что мы делаем все возможное, чтобы обеспечить целостность и безопасность своей сети и систем, мы не можем гарантировать, что наши меры безопасности предотвратят незаконный доступ к этой информации хакеров сторонних организаций.</p>
+							<p>В случае изменения данной политики конфиденциальности Вы сможете прочитать об этих изменениях на этой странице или, в особых случаях, получить уведомление на свой e-mail.</p>
+							<p>Для связи с администратором сайта по любым вопросам Вы можете написать письмо на e-mail: hodi.legko@gmail.com</p>
+						</div>
+					</div>
+				</div>
+				<!-- /форма модальное окно политика конфиденциальности-->
+
+				<script src="libs/jquery/jquery-1.11.2.min.js"></script>   
 
 	<!--[if lt IE 9]>
 	<script src="libs/html5shiv/es5-shim.min.js"></script>
@@ -429,6 +677,7 @@
 		loadCSS("libs/owlcarousel/owl.carousel.min.css"); //Load Libs CSS: OwlCarousel CSS
 		loadCSS("libs/owlcarousel/owl.theme.default.min.css"); //Load Libs CSS: OwlCarousel CSS
 		loadCSS("libs/animate/animate.css"); //Load Libs CSS: Animate CSS
+		loadCSS("libs/magnific-popup/dist/magnific-popup.css"); //Load Libs CSS: Magnific-popup CSS
 		loadCSS("libs/remodal/remodal.css"); //Load Libs CSS: Remodal CSS
 		loadCSS("libs/remodal/remodal-default-theme.css"); //Load Libs CSS: Remodal CSS
 		loadCSS("header-css/_header.css");   //Header Styles (compress & paste to header after release)
@@ -447,56 +696,57 @@
 	<script>var scr = {"scripts":[
 		{"src" : "libs/modernizr/modernizr.js", "async" : false},				
 		{"src" : "libs/animate/wow.js", "async" : false},
-        {"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},
-        {"src" : "libs/owlcarousel/owl.carousel.min.js", "async" : false},
-        {"src" : "libs/remodal/remodal.min.js", "async" : false},
+		{"src" : "libs/plugins-scroll/plugins-scroll.js", "async" : false},
+		{"src" : "libs/magnific-popup/dist/jquery.magnific-popup.min.js", "async" : false},
+		{"src" : "libs/owlcarousel/owl.carousel.min.js", "async" : false},
+		{"src" : "libs/remodal/remodal.min.js", "async" : false},
 		{"src" : "libs/validate/jquery.validate.min.js", "async" : false},
 		{"src" : "libs/validate/messages_ru.min.js", "async" : false},
 		{"src" : "js/common.js", "async" : false}
 		]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);
 	</script>
-    <script>
-        $(window).load(function() {
+	<script>
+		$(window).load(function() {
 
-          $("#wrapper").fadeOut();
-          $(".loader").delay(400).fadeOut("slow");
+			$("#wrapper").fadeOut();
+			$(".loader").delay(400).fadeOut("slow");
 
-        });
-    </script>
-    
-
-
-           <script type="text/javascript">
-           	function initMap() {
-            var myLatLng = {lat: 48.458073, lng: 35.023564};
-
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 13,
-                center: myLatLng,
-                scrollwheel: false,
-                disableDefaultUI: false,
-
-                styles: [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
-            });
+		});
+	</script>
 
 
-            var image = 'img/map-pointer.png';
-            var beachMarker = new google.maps.Marker({
-                position: {lat: 48.458473, lng: 35.035564},
-                map: map,
-                icon: image,
-                animation: google.maps.Animation.DROP
-            });
+
+	<script type="text/javascript">
+		function initMap() {
+			var myLatLng = {lat: 48.458073, lng: 35.023564};
+
+			var map = new google.maps.Map(document.getElementById('map'), {
+				zoom: 13,
+				center: myLatLng,
+				scrollwheel: false,
+				disableDefaultUI: false,
+
+				styles: [{"featureType":"water","stylers":[{"color":"#19a0d8"}]},{"featureType":"administrative","elementType":"labels.text.stroke","stylers":[{"color":"#ffffff"},{"weight":6}]},{"featureType":"administrative","elementType":"labels.text.fill","stylers":[{"color":"#e85113"}]},{"featureType":"road.highway","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-40}]},{"featureType":"road.arterial","elementType":"geometry.stroke","stylers":[{"color":"#efe9e4"},{"lightness":-20}]},{"featureType":"road","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"road","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"road.highway","elementType":"labels.icon"},{"featureType":"landscape","elementType":"labels","stylers":[{"visibility":"off"}]},{"featureType":"landscape","stylers":[{"lightness":20},{"color":"#efe9e4"}]},{"featureType":"landscape.man_made","stylers":[{"visibility":"off"}]},{"featureType":"water","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"water","elementType":"labels.text.fill","stylers":[{"lightness":-100}]},{"featureType":"poi","elementType":"labels.text.fill","stylers":[{"hue":"#11ff00"}]},{"featureType":"poi","elementType":"labels.text.stroke","stylers":[{"lightness":100}]},{"featureType":"poi","elementType":"labels.icon","stylers":[{"hue":"#4cff00"},{"saturation":58}]},{"featureType":"poi","elementType":"geometry","stylers":[{"visibility":"on"},{"color":"#f0e4d3"}]},{"featureType":"road.highway","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-25}]},{"featureType":"road.arterial","elementType":"geometry.fill","stylers":[{"color":"#efe9e4"},{"lightness":-10}]},{"featureType":"poi","elementType":"labels","stylers":[{"visibility":"simplified"}]}]
+			});
 
 
-        };
-           </script>
-        
-    	<script type="text/javascript">
+			var image = 'img/map-pointer.png';
+			var beachMarker = new google.maps.Marker({
+				position: {lat: 48.458473, lng: 35.035564},
+				map: map,
+				icon: image,
+				animation: google.maps.Animation.DROP
+			});
+
+
+		};
+	</script>
+
+	<script type="text/javascript">
 		day = 1; hour= 2; minute= 55; sec= 56;
 		function CountBox(a){dateNow=new Date,amount=dateFuture-dateNow.getTime()+5,delete dateNow,amount<0?(out="<div class='countbox-num'><div id='countbox-days1'><span></span>0</div><div id='countbox-days2'><span></span>0</div><div id='countbox-days-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-hours1'><span></span>0</div><div id='countbox-hours2'><span></span>0</div><div id='countbox-hours-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-mins1'><span></span>0</div><div id='countbox-mins2'><span></span>0</div><div id='countbox-mins-text'></div></div><div class='countbox-space'></div><div class='countbox-num  countbox-num__sec'><div id='countbox-secs1'><span></span>0</div><div id='countbox-secs2'><span></span>0</div><div id='countbox-secs-text'></div></div>",document.getElementById(a).innerHTML=out):(days=0,days1=0,days2=0,hours=0,hours1=0,hours2=0,mins=0,mins1=0,mins2=0,secs=0,secs1=0,secs2=0,out="",amount=Math.floor(amount/1e3),days=Math.floor(amount/86400),days1=days>=10?days.toString().charAt(0):"0",days2=days>=10?days.toString().charAt(1):days.toString().charAt(0),amount%=86400,hours=Math.floor(amount/3600),hours1=hours>=10?hours.toString().charAt(0):"0",hours2=hours>=10?hours.toString().charAt(1):hours.toString().charAt(0),amount%=3600,mins=Math.floor(amount/60),mins1=mins>=10?mins.toString().charAt(0):"0",mins2=mins>=10?mins.toString().charAt(1):mins.toString().charAt(0),amount%=60,secs=Math.floor(amount),secs1=secs>=10?secs.toString().charAt(0):"0",secs2=secs>=10?secs.toString().charAt(1):secs.toString().charAt(0),out="<div class='countbox-num'><div id='countbox-days1'><span></span>"+days1+"</div><div id='countbox-days2'><span></span>"+days2+"</div><div id='countbox-days-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-hours1'><span></span>"+hours1+"</div><div id='countbox-hours2'><span></span>"+hours2+"</div><div id='countbox-hours-text'></div></div><div class='countbox-space'></div><div class='countbox-num'><div id='countbox-mins1'><span></span>"+mins1+"</div><div id='countbox-mins2'><span></span>"+mins2+"</div><div id='countbox-mins-text'></div></div><div class='countbox-space'></div><div class='countbox-num  countbox-num__sec'><div id='countbox-secs1'><span></span>"+secs1+"</div><div id='countbox-secs2'><span></span>"+secs2+"</div><div id='countbox-secs-text'></div></div>",document.getElementById(a).innerHTML=out,setTimeout(function(){CountBox(a)},1e3))}day=1,hour=2,minute=55,sec=56,dateFuture=(new Date).getTime()+1e3*(60*(24*day+hour)*60+60*minute+sec),window.onload=function(){CountBox("countbox"),CountBox("countbox1")};
 	</script>
 	<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCQuA3wc-ZE2DtYyudxCJK0jZ2HGvsHOIM&callback=initMap"
-			type="text/javascript"></script>
+	type="text/javascript"></script>
 </body>
 </html>

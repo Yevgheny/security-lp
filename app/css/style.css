@@ -719,7 +719,7 @@ label.error {
   padding-top: 40px;
 }
 .products__item {
-  height: 650px;
+  min-height: 570px;
 }
 .products__item h3 {
   font-size: 2.3rem;
@@ -728,11 +728,21 @@ label.error {
 }
 .products__item img {
   display: block;
-  max-width: 100%;
+  width: 100%;
   margin-bottom: 35px;
 }
 .products__item p {
   line-height: 1.5;
+}
+.products-btn {
+  margin-bottom: 95px;
+}
+.form-top {
+  min-height: 710px;
+  background: url("../img/form-top-bg.jpg") no-repeat top center;
+}
+.form-wrap {
+  background: #fbc405;
 }
 .our-company {
   height: auto;
