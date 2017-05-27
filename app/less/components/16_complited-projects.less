@@ -31,11 +31,15 @@
 }
 .project-slide-picture-after {
   max-width: 570px;
-  min-height: 370px;
+  height: 370px;
   border-radius: 3px;
   overflow: hidden;
   position: relative;
   z-index: 20;
+  img {
+    max-width: 100%;
+    height: auto;
+  }
 }
 .slide-picture-after-two-wrap {  
   margin-top: 22px;
@@ -54,7 +58,7 @@
 }
 .slide-picture-after-two {
   max-width: 168px;
-  min-height: 112px;
+  height: 112px;
   border-radius: 3px;
   overflow: hidden;
   cursor: pointer;
@@ -103,5 +107,11 @@
 }
 #slider .owl-dots .owl-dot span:hover {
   background: #792d5d;
+}
+.project-slide-picture-after {
+    display: none;
+}
+.project-slide-two .active {
+    display: block !important;
 }
 

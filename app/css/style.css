@@ -684,6 +684,16 @@ label.error {
   color: #3791d0;
   border-bottom: 1px solid #3791d0;
 }
+.policy-confidential h1 {
+  font-size: 4.2rem;
+}
+.policy-confidential p {
+  text-align: left;
+  font-size: 1.7rem;
+}
+.policy-conf {
+  background: #fbc405;
+}
 .your-security__headline {
   padding-top: 70px;
 }
@@ -807,6 +817,12 @@ label.error {
 .our-company-content-wrap-two p {
   margin-bottom: 40px;
 }
+#slider-1 {
+  display: block;
+  max-width: 500px;
+  min-height: 620px;
+  margin: 0 auto;
+}
 #slider-1 .owl-dots {
   display: none;
 }
@@ -846,12 +862,12 @@ label.error {
   background: transparent;
 }
 .license {
-  width: 500px;
-  height: 620px;
+  max-width: 500px;
+  min-height: 620px;
 }
 .license-slide {
-  width: 500px;
-  height: 620px;
+  max-width: 500px;
+  min-height: 620px;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   overflow: hidden;
@@ -860,9 +876,8 @@ label.error {
   max-width: 100%;
   height: auto;
 }
-.mfp-inline-holder .mfp-content,
-.mfp-ajax-holder .mfp-content #test-modal {
-  width: 33%;
+#test-modal .mfp-close {
+  right: 33%;
 }
 .video {
   display: block;
@@ -1026,12 +1041,16 @@ label.error {
 }
 .project-slide-picture-after {
   max-width: 570px;
-  min-height: 370px;
+  height: 370px;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   overflow: hidden;
   position: relative;
   z-index: 20;
+}
+.project-slide-picture-after img {
+  max-width: 100%;
+  height: auto;
 }
 .slide-picture-after-two-wrap {
   margin-top: 22px;
@@ -1050,7 +1069,7 @@ label.error {
 }
 .slide-picture-after-two {
   max-width: 168px;
-  min-height: 112px;
+  height: 112px;
   -webkit-border-radius: 3px;
           border-radius: 3px;
   overflow: hidden;
@@ -1103,6 +1122,12 @@ label.error {
 }
 #slider .owl-dots .owl-dot span:hover {
   background: #792d5d;
+}
+.project-slide-picture-after {
+  display: none;
+}
+.project-slide-two .active {
+  display: block !important;
 }
 .five-steps {
   padding-top: 95px;
