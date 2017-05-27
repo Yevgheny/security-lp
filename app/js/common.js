@@ -66,7 +66,7 @@ $(function () {
 
         .click(function () {
             $('.project-slide-picture-after').fadeOut(0);
-            $('.project-slide-picture-after-1').fadeIn(700);
+            $('.project-slide-picture-after-1').fadeIn(600);
             $('.project-slide-picture-after').removeClass('active');
             $('.project-slide-picture-after-1').addClass('active');
 
@@ -76,7 +76,7 @@ $(function () {
 
         .click(function () {
             $('.project-slide-picture-after').fadeOut(0);
-            $('.project-slide-picture-after-2').fadeIn(700);
+            $('.project-slide-picture-after-2').fadeIn(600);
             $('.project-slide-picture-after').removeClass('active');
             $('.project-slide-picture-after-2').addClass('active');
 
@@ -86,7 +86,7 @@ $(function () {
 
         .click(function () {
             $('.project-slide-picture-after').fadeOut(0);
-            $('.project-slide-picture-after-3').fadeIn(700);
+            $('.project-slide-picture-after-3').fadeIn(600);
             $('.project-slide-picture-after').removeClass('active');
             $('.project-slide-picture-after-3').addClass('active');
 

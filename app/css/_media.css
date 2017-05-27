@@ -374,6 +374,9 @@
 	    left: -31%;
 	    bottom: -5%;
 	}
+	.input-bottom-form {
+		width: 65%;
+	}
 	.five-steps__content-wrap--items,
 	.five-steps__content-wrap--items-two {
 		min-height: 170px;
@@ -433,7 +436,7 @@
 	    margin-bottom: 0;
 	}
 	.btn-license {
-		max-width: 85%;	
+		max-width: 70%;	
 		margin: 0 auto;
 	}
 	.cloud-wrap:before {
@@ -460,6 +463,12 @@
 	}
 	.form-bottom {
 		background: #fbc405;
+	}
+	.input-bottom-form {	    
+	    margin: 0 auto 15px;
+	}
+	.bottom-form-btn {
+		margin: 0 auto;
 	}
 	.project-slide__result {
 		margin-bottom: 25px;
@@ -496,9 +505,6 @@
 	.contacts {
 		text-align: center;
 	}	
-	.bottom-form-btn {
-		margin: 0 auto;
-	}
 	.contacts__phone a {
 		margin-bottom: 30px;
 	}
@@ -516,7 +522,13 @@
 	.btn-license,
 	.btn-application {
 	    max-width: 100%;
+	}
+	.input-bottom-form {
+	    width: 74%;
 	}	
+	.bottom-form-btn {
+		max-width: 460px;
+	}
 	#test-modal .mfp-close {
 	    right: 12%;
 	}
@@ -554,8 +566,11 @@
 	.our-company-content p {
 	    font-size: 2.2rem;
 	}
+	.input-bottom-form {
+	    width: 100%;
+	}
 	.bottom-form-btn {
-		max-width: 700px;
+	    max-width: 100%;
 	}
 	.five-steps__content-wrap--items::after {
 	    left: 46%;
@@ -656,6 +671,9 @@
 	.license-slide {
 		min-height: 435px;
 	}
+	.policy-confidential h1 {
+	    font-size: 3.2rem;
+	}
 }
 
 @media only screen and (max-width : 415px) {
@@ -714,6 +732,12 @@
 	.slide-picture-after-two {
 	    max-width: 105px;
 	    height: 70px;
+	}
+	.policy-confidential h1 {
+	    font-size: 2.8rem;
+	}
+	.policy-confidential h2 {
+	    font-size: 2.8rem;
 	}
 
 }
@@ -787,6 +811,9 @@
 	#slider-1 .owl-prev,
 	#slider-1 .owl-next {
 		top: 28%;
+	}
+	.policy-confidential h1 {
+	    font-size: 2.4rem;
 	}
 
 }
