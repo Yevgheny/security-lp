@@ -1,44 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e6e280f6-547b-4599-ae21-218a7e95ec14" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap-grid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap-theme.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap.css.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/js/bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/bootstrap/js/npm.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/easy-responsive-tabs-to-accordion.7z" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/equalHeights/jquery.equalheights.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/equalHeights/jquery.equalheights.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/lightbox/lightbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/lightbox/lightbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/match_height.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/vide/jquery.vide.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/vide/jquery.vide.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/vide/video/main-page-vid.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/vide/video/main-page-vid.mp4" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/vide/video/main-page-vid.ogv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/vide/video/main-page-vid.webm" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index-2.html" afterPath="$PROJECT_DIR$/index-ua.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/map-pointer.png" afterPath="$PROJECT_DIR$/img/map-pointer.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_media.css" afterPath="$PROJECT_DIR$/css/_media.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-css/_header.css" afterPath="$PROJECT_DIR$/header-css/_header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/05_forms.less" afterPath="$PROJECT_DIR$/less/components/05_forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/remodal/remodal-default-theme.css" afterPath="$PROJECT_DIR$/libs/remodal/remodal-default-theme.css" />
-    </list>
+    <list default="true" id="e6e280f6-547b-4599-ae21-218a7e95ec14" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,7 +18,7 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
+            <state relative-caret-position="1845">
               <caret line="18" column="3322" lean-forward="true" selection-start-line="18" selection-start-column="3322" selection-end-line="18" selection-end-column="3322" />
               <folding />
             </state>
@@ -307,7 +270,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31044000" />
+    <option name="totallyTimeSpent" value="31235000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -320,9 +283,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13447782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13447782" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292517" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -599,7 +562,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
+        <state relative-caret-position="1845">
           <caret line="18" column="3322" lean-forward="true" selection-start-line="18" selection-start-column="3322" selection-end-line="18" selection-end-column="3322" />
           <folding />
         </state>
