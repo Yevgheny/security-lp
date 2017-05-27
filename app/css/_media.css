@@ -104,13 +104,26 @@
 	.five-steps__content-wrap--items:after {
 		left: 45%;		
 	}
+
 	#test-modal .mfp-close {
 	  right: 29%;
 	}
 	.mfp-content {
 	    margin: 20px auto 0;
 	}
-	
+	.form-top__text-wrap h2 {
+		font-size: 4rem;
+	}
+	.form-top__text-wrap h2 span {
+		font-size: 7.5rem;
+	}
+	.form-top__text-wrap h3 {
+		font-size: 3rem;
+	}
+	.form-top__girl {
+		left: -72%;
+	}
+
 }
 
 /* Medium Devices, Desktops */
@@ -140,6 +153,28 @@
 		height: 50px;
 		line-height: 50px;
 		margin-bottom: 50px;
+	}
+	.form-top {
+		height: auto;
+		min-height: 100px;
+		-webkit-background-size: cover;
+		background-size: cover;
+		padding-bottom: 70px;
+	}
+	.form-top__text-wrap {
+		text-align: center;
+	}
+	.form-top__text-wrap h2 {
+		padding-top: 70px;
+	}
+	.form-top__text-wrap h3 {
+		margin-bottom: 40px;
+	}
+	.form-wrap {
+		margin: 40px auto 0;
+	}
+	.form-top__girl {
+		display: none;
 	}
 	.our-company-item-wrap, 
 	.our-company-item-wrap-1 {
@@ -493,6 +528,23 @@
 	.your-security__text p {
 		font-size: 1.8rem;
 	}
+	.form-wrap {
+		text-align: center;
+		padding: 50px 20px;
+	}
+	.form-top__form h3 {
+		font-size: 3rem;
+		margin-bottom: 10px;
+	}
+	.form-top__form p {
+		font-size: 2.2rem;
+		margin-bottom: 40px;
+	}
+	input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {font-size: 1.8rem;}
+	input::-moz-placeholder, textarea::-moz-placeholder {font-size: 1.8rem;}
+	input::-moz-placeholder, textarea::-moz-placeholder {font-size: 1.8rem;}
+	input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+		font-size: 1.8rem;}
 	.products__item p {
 		font-size: 1.8rem;
 	}
@@ -743,12 +795,126 @@
 
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
-
+	#countbox, #countbox1 {
+		height:93px;
+		max-width:280px;
+		line-height:50px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	#countbox .countbox-num {
+		width:65px;
+		height:65px;
+		font-size:26px;
+		padding-left:0px;
+	}
+	#countbox1 .countbox-num {
+		width:65px;
+		height:65px;
+		font-size:26px;
+		padding-left:0px;
+	}
+	#countbox-days1, #countbox-hours1, #countbox-mins1, #countbox-secs1 {
+		margin-left:9px;
+	}
+	#countbox-days-text:before {
+		position:absolute;
+		top:13px;
+		left:15px;
+		display:block;
+		content:"день";
+	}
+	#countbox-hours-text:before {
+		position:absolute;
+		top:13px;
+		left:21px;
+		display:block;
+		content:"час";
+	}
+	#countbox-mins-text:before {
+		content:"мин";
+		position:absolute;
+		top:13px;
+		left:18px;
+		display:block;
+	}
+	#countbox-secs-text:before {
+		content:"сек";
+		position:absolute;
+		top:13px;
+		left:21px;
+		display:block;
+	}
+	#countbox-days-text, #countbox-hours-text,
+	#countbox-mins-text, #countbox-secs-text {
+		margin-top:0.8rem;
+		position:relative;
+		width:20px;
+		font-size:14px;
+		color:#020202;
+	}
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
+	#countbox, #countbox1{
+		font-size:36px;
+		line-height:70px;
+		margin-top:30px;
+		padding:0;
+		max-width:380px;
+		z-index:100;
+		position:relative;
+	}
+	#countbox .countbox-num,
+	#countbox1 .countbox-num {
+		width:90px;
+		height:90px;
+		font-size:36px;
+		background: #fff;
+		padding-left:3px;
+	}
 
+	#countbox .countbox-num__sec,
+	#countbox1 .countbox-num__sec {
+		color: #72345b;
+	}
+	#countbox-days1, #countbox-hours1,
+	#countbox-mins1, #countbox-secs1 {
+		margin-left:18px;
+	}
+	#countbox-days-text:before {
+		position:absolute;
+		top:20px;
+		left:25px;
+		display:block;
+		content:"день";
+	}
+	#countbox-hours-text:before {
+		position:absolute;
+		top:20px;
+		left:28px;
+		display:block;
+		content:"час";
+	}
+	#countbox-mins-text:before {
+		content:"мин";
+		position:absolute;
+		top:20px;
+		left:28px;
+		display:block;
+	}
+	#countbox-secs-text:before {
+		content:"сек";
+		position:absolute;
+		top:20px;
+		left:28px;
+		display:block;
+	}
+	#countbox-days-text, #countbox-hours-text,
+	#countbox-mins-text, #countbox-secs-text {
+		font-size:14px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -762,6 +928,9 @@
         padding-left: 0;
         padding-right: 0;
     }
+	#countbox, #countbox1 {
+		max-width: 100%;
+	}
 }
 
 /* Large Devices, Wide Screens */
@@ -775,5 +944,12 @@
 	}
 	.no-padding-left {
 		padding-left: 0;
+	}
+	#countbox, #countbox1 {
+		margin-top: 15px;
+	}
+	#countbox .countbox-num,
+	#countbox1 .countbox-num {
+		margin-right:5px;
 	}
 }
