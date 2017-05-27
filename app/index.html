@@ -76,7 +76,7 @@
                			<li class="header-features__item">Гарантия на системы до 3 лет</li>
                		</ul>
                		<a href="#modal2" class="btn btn-grey main-btn">Получить консультацию специалиста</a>
-               		<a href="#modal2" class="btn btn-red main-btn">Подобрать решение для себя</a>
+               		<a href="#modal3" class="btn btn-red main-btn">Подобрать решение для себя</a>
                	</div>
                </div>
             </div>
@@ -171,7 +171,7 @@
 							<img src="img/products-pic-1.jpg" alt="IP-видеонаблюдение">
 							<p>Цифровая система видеонаблюдения, которой можно управлять и передавать видео/изображение через Интернет на любом расстоянии. Имеет высокую степень защиты от различных видов сбоев и взломов.</p>
 						</div>
-						<a href="#modal" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
+						<a href="#modal4" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<div class="products__item">
@@ -179,7 +179,7 @@
 							<img src="img/products-pic-2.jpg" alt="HDCVI, AHD видеонаблюдение">
 							<p>Новейшая система, в основу которой легли лучшие технологии от IP и аналоговых систем видеонаблюдения. Поддерживает 2 формата видео высокой четкости. Изображение передается на видеорегистратор с нулевой задержкой и без потери качества.</p>
 						</div>
-						<a href="#modal" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
+						<a href="#modal4" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
 					</div>
 
 					<div class="col-sm-6 col-lg-4">
@@ -188,7 +188,7 @@
 							<img src="img/products-pic-3.jpg" alt="Аналитические системы">
 							<p>Имеют различные функции, такие как распознавание лиц, обнаружения пересечения границы, подсчет зашедших/вышедших людей, обнаружение пропажи/появления предмета, определение номера автомобиля и многое другое.</p>
 						</div>
-						<a href="#modal" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
+						<a href="#modal4" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<div class="products__item">
@@ -196,7 +196,7 @@
 							<img src="img/products-pic-4.jpg" alt="Домофонные системы">
 							<p>Один из основных способов обеспечения безопасности. Благодаря домофонным системам Вы самостоятельно контролируете, кого впускать в помещение. Есть различные типы домофонов, в зависимости от целей, требуемого уровня безопасности и планируемых затрат.</p>
 						</div>
-						<a href="#modal" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
+						<a href="#modal4" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
 					</div>
 
 					<div class="col-sm-6 col-lg-4">
@@ -205,7 +205,7 @@
 							<img src="img/products-pic-5.jpg" alt="Раздвижные ворота">
 							<p>Раздвижные ворота – оптимальное и удобное решение для владельцев машин, особенно с ограниченным пространством участка. Вам достаточно нажать на кнопку и ворота откроются сами.</p>
 						</div>
-						<a href="#modal" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
+						<a href="#modal4" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
 					</div>
 					<div class="col-sm-6 col-lg-4">
 						<div class="products__item">
@@ -213,7 +213,7 @@
 							<img src="img/products-pic-6.jpg" alt="Роллеты">
 							<p>Роллетные ворота – самая популярная разновидность ворот в гараж за последние годы. Они просты в монтаже и подойдут для проема любого размера. Роллеты на окна защитят дом от проникновения в Ваше отсутствие.</p>
 						</div>
-						<a href="#modal" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
+						<a href="#modal4" class="btn btn-brown main-btn products-btn">Узнать подробнее</a>
 					</div>
 				</div>
             </div>
@@ -251,7 +251,7 @@
 								<div class="input-group">
 									<input type="text"  name="email" placeholder="Ваш email" required>
 								</div>
-								<input type="hidden"  name="s_formi" value="Получить сертификат на 5000 грн">
+								<input type="hidden"  name="форма" value="Получить сертификат на 5000 грн">
 								<button type="submit" name="submit" class="btn main-btn btn-red">Получить сертификат</button>
 							</form>
 						</div>
@@ -308,12 +308,14 @@
             </div>
         </footer>
     </div>
-    <!-- Модальное окно -->
+    <!-- Модальное окно мы вам перезвоним-->
 	<div class="remodal" data-remodal-id="modal" role="dialog">
 		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
-		<div>
-			<h2>Заполните форму</h2>
-			<p>и наш специалист свяжется с Вами в течение 15 минут</p>
+		<div class="remodal-content">
+			<h2>Заполните форму,</h2>
+			<p>и наш специалист перезвонит Вам
+				в течение 5 минут, чтобы ответить
+				на Ваши вопросы</p>
 			<form action="form-control/mail.php" method="post" class="main-form" id="modal-form" name="main-form">
 			    <!-- Hidden Required Fields -->
 			    <input type="hidden" name="project_name" value="vilar-agro">
@@ -329,14 +331,98 @@
 				<div class="input-group">
 					<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
 				</div>	
-			    <input type="hidden"  name="s_formi" value="Получить консультацию">
-				<button type="submit" name="submit" class="btn btn-blue modal-btn">Получить консультацию</button>
+			    <input type="hidden"  name="форма" value="Перезвоните мне">
+				<button type="submit" name="submit" class="btn main-btn btn-red modal-btn">Перезвоните мне</button>
 			</form>
 		</div>
 		<br>
 	</div>
-	<!-- Конец Модальное окно  -->
-	<!--  модальное окно политика конфиденциальности -->
+	<!-- Модальное окно мы вам перезвоним-->
+	<!-- Модальное окно получить консультацию специалиста-->
+	<div class="remodal" data-remodal-id="modal2" role="dialog">
+		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+		<div class="remodal-content">
+			<h2>Заполните форму,</h2>
+			<p>и наш специалист перезвонит Вам в течение 5 минут для подробной консультации</p>
+			<form action="form-control/mail.php" method="post" class="main-form" id="modal-form2" name="main-form">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="vilar-agro">
+				<input type="hidden" name="admin_email" value="vilaragro@gmail.com">
+				<input type="hidden" name="form_subject" value="Заявка с сайта «Вилар-Агро»">
+				<!-- END Hidden Required Fields -->
+				<div class="input-group">
+					<input type="text"  name="name" placeholder="Ваше имя" required>
+				</div>
+				<div class="input-group">
+					<input type="email"  name="email" placeholder="Ваш e-mail" required>
+				</div>
+				<div class="input-group">
+					<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+				</div>
+				<input type="hidden"  name="форма" value="Получить консультацию">
+				<button type="submit" name="submit" class="btn main-btn btn-red modal-btn">Получить консультацию</button>
+			</form>
+		</div>
+		<br>
+	</div>
+	<!-- Модальное окно получить консультацию специалиста-->
+	<!-- Модальное окно оставить заявку-->
+	<div class="remodal" data-remodal-id="modal3" role="dialog">
+		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+		<div class="remodal-content">
+			<h2>Заполните форму,</h2>
+			<p>чтобы оставить заявку на бесплатный выезд специалиста на объект</p>
+			<form action="form-control/mail.php" method="post" class="main-form" id="modal-form3" name="main-form">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="vilar-agro">
+				<input type="hidden" name="admin_email" value="vilaragro@gmail.com">
+				<input type="hidden" name="form_subject" value="Заявка с сайта «Вилар-Агро»">
+				<!-- END Hidden Required Fields -->
+				<div class="input-group">
+					<input type="text"  name="name" placeholder="Ваше имя" required>
+				</div>
+				<div class="input-group">
+					<input type="email"  name="email" placeholder="Ваш e-mail" required>
+				</div>
+				<div class="input-group">
+					<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+				</div>
+				<input type="hidden"  name="форма" value="Оставить заявку">
+				<button type="submit" name="submit" class="btn main-btn btn-red modal-btn">Оставить заявку</button>
+			</form>
+		</div>
+		<br>
+	</div>
+	<!-- Модальное окно оставить заявку-->
+	<!-- Модальное окно узнать подробнее-->
+	<div class="remodal" data-remodal-id="modal4" role="dialog">
+		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
+		<div class="remodal-content">
+			<h2>Заполните форму,</h2>
+			<p>и наш специалист свяжется с Вами в течение 5 минут, чтобы рассказать о всех деталях данной системы</p>
+			<form action="form-control/mail.php" method="post" class="main-form" id="modal-form4" name="main-form">
+				<!-- Hidden Required Fields -->
+				<input type="hidden" name="project_name" value="vilar-agro">
+				<input type="hidden" name="admin_email" value="vilaragro@gmail.com">
+				<input type="hidden" name="form_subject" value="Заявка с сайта «Вилар-Агро»">
+				<!-- END Hidden Required Fields -->
+				<div class="input-group">
+					<input type="text"  name="name" placeholder="Ваше имя" required>
+				</div>
+				<div class="input-group">
+					<input type="email"  name="email" placeholder="Ваш e-mail" required>
+				</div>
+				<div class="input-group">
+					<input class="phone" type="text"  name="phone" placeholder="Ваш телефон" required>
+				</div>
+				<input type="hidden"  name="форма" value="Узнать подробнее">
+				<button type="submit" name="submit" class="btn main-btn btn-red modal-btn">Узнать подробнее</button>
+			</form>
+		</div>
+		<br>
+	</div>
+	<!-- Модальное окно узнать подробнее-->
+	<!--  Модальное окно политика конфиденциальности -->
 	<div class="remodal policy-conf" data-remodal-id="modal-2" role="dialog" aria-labelledby="modal1Title" aria-describedby="modal1Desc">
 		<button data-remodal-action="close" class="remodal-close" aria-label="Close"></button>
 		<div id="policy" class="white-popup-block">

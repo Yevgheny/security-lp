@@ -562,6 +562,35 @@ label.error {
   font-size: 14px;
   color: red;
 }
+.remodal {
+  background: #fbc405;
+  padding: 70px 15px;
+}
+.remodal div.remodal-content {
+  max-width: 270px;
+  margin: 0 auto;
+  text-align: left;
+}
+.remodal form {
+  max-width: 270px;
+  margin: 0 auto;
+}
+.remodal h2 {
+  font-family: 'Rubik-Bold', sans-serif;
+  font-size: 26px;
+  margin-bottom: 0;
+}
+.remodal p {
+  font-size: 18px;
+  margin-bottom: 50px;
+}
+.remodal-close {
+  color: #020202;
+  opacity: 0.6;
+}
+.remodal-close:before {
+  font-size: 45px;
+}
 #countbox .countbox-num,
 #countbox1 .countbox-num {
   position: relative;

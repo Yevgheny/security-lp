@@ -3,15 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="e6e280f6-547b-4599-ae21-218a7e95ec14" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_media.css" afterPath="$PROJECT_DIR$/css/_media.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/header-css/_header.css" afterPath="$PROJECT_DIR$/header-css/_header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index-2.html" afterPath="$PROJECT_DIR$/index-2.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/02_mixins.less" afterPath="$PROJECT_DIR$/less/components/02_mixins.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/05_forms.less" afterPath="$PROJECT_DIR$/less/components/05_forms.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/10_form-top.less" afterPath="$PROJECT_DIR$/less/components/10_form-top.less" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less/components/variables.less" afterPath="$PROJECT_DIR$/less/components/variables.less" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/remodal/remodal-default-theme.css" afterPath="$PROJECT_DIR$/libs/remodal/remodal-default-theme.css" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,11 +21,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="309">
-              <caret line="235" column="110" lean-forward="false" selection-start-line="235" selection-start-column="110" selection-end-line="235" selection-end-column="110" />
+            <state relative-caret-position="322">
+              <caret line="253" column="65" lean-forward="false" selection-start-line="253" selection-start-column="65" selection-end-line="253" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -39,8 +34,8 @@
       <file leaf-file-name="10_form-top.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/components/10_form-top.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="321">
-              <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
+            <state relative-caret-position="286">
+              <caret line="45" column="5" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -49,8 +44,8 @@
       <file leaf-file-name="_media.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/_media.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="484" column="93" lean-forward="false" selection-start-line="484" selection-start-column="93" selection-end-line="484" selection-end-column="93" />
+            <state relative-caret-position="1712">
+              <caret line="542" column="93" lean-forward="false" selection-start-line="542" selection-start-column="93" selection-end-line="542" selection-end-column="93" />
               <folding />
             </state>
           </provider>
@@ -69,8 +64,8 @@
       <file leaf-file-name="05_forms.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/less/components/05_forms.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="41" column="102" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="41" selection-end-column="102" />
+            <state relative-caret-position="409">
+              <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -96,11 +91,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_header.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_header.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/header-css/_header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
+            <state relative-caret-position="4620">
               <caret line="210" column="56" lean-forward="false" selection-start-line="210" selection-start-column="56" selection-end-line="210" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="remodal-default-theme.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/libs/remodal/remodal-default-theme.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="309" column="10" lean-forward="false" selection-start-line="309" selection-start-column="10" selection-end-line="309" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -111,6 +116,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>main</find>
+      <find>.remodal</find>
+      <find>Узнать подробнее</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -125,12 +132,13 @@
         <option value="$PROJECT_DIR$/less/components/09_products.less" />
         <option value="$PROJECT_DIR$/index-2.html" />
         <option value="$PROJECT_DIR$/less/components/variables.less" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/less/components/02_mixins.less" />
         <option value="$PROJECT_DIR$/less/components/10_form-top.less" />
-        <option value="$PROJECT_DIR$/less/components/05_forms.less" />
         <option value="$PROJECT_DIR$/css/_media.css" />
         <option value="$PROJECT_DIR$/header-css/_header.css" />
+        <option value="$PROJECT_DIR$/libs/remodal/remodal-default-theme.css" />
+        <option value="$PROJECT_DIR$/less/components/05_forms.less" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -186,7 +194,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -200,11 +208,11 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="less" />
+              <option name="myItemId" value="libs" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="components" />
+              <option name="myItemId" value="remodal" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -301,7 +309,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25264000" />
+    <option name="totallyTimeSpent" value="28364000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -524,14 +532,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="309">
-          <caret line="235" column="110" lean-forward="false" selection-start-line="235" selection-start-column="110" selection-end-line="235" selection-end-column="110" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/less/components/variables.less">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="233">
@@ -548,34 +548,58 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/less/components/10_form-top.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="57" column="20" lean-forward="false" selection-start-line="57" selection-start-column="20" selection-end-line="57" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/less/components/05_forms.less">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="41" column="102" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="41" selection-end-column="102" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/_media.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="484" column="93" lean-forward="false" selection-start-line="484" selection-start-column="93" selection-end-line="484" selection-end-column="93" />
+        <state relative-caret-position="1712">
+          <caret line="542" column="93" lean-forward="false" selection-start-line="542" selection-start-column="93" selection-end-line="542" selection-end-column="93" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2068">
+          <caret line="94" column="3" lean-forward="true" selection-start-line="94" selection-start-column="3" selection-end-line="94" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/header-css/_header.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
+        <state relative-caret-position="4620">
           <caret line="210" column="56" lean-forward="false" selection-start-line="210" selection-start-column="56" selection-end-line="210" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/components/10_form-top.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="45" column="5" lean-forward="true" selection-start-line="43" selection-start-column="4" selection-end-line="45" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/remodal/remodal-default-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="309" column="10" lean-forward="false" selection-start-line="309" selection-start-column="10" selection-end-line="309" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/less/components/05_forms.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="76" column="24" lean-forward="false" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="253" column="65" lean-forward="false" selection-start-line="253" selection-start-column="65" selection-end-line="253" selection-end-column="65" />
           <folding />
         </state>
       </provider>
