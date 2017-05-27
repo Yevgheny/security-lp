@@ -591,6 +591,9 @@ label.error {
 .remodal-close:before {
   font-size: 45px;
 }
+.policy-confidential {
+  padding: 0 20px;
+}
 #countbox .countbox-num,
 #countbox1 .countbox-num {
   position: relative;

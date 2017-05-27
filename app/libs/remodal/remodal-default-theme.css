@@ -297,6 +297,9 @@
   .remodal {
     max-width: 470px;
   }
+  .remodal.policy-conf {
+    max-width: 700px;
+  }
 }
 
 /* IE8
@@ -308,4 +311,7 @@
 
 .lt-ie9 .remodal {
   width: 470px;
+}
+.lt-ie9 .remodal.policy-conf {
+  width: 700px;
 }
