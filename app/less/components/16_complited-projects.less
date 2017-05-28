@@ -1,0 +1,107 @@
+.compilited-projects {
+	min-height: 905px;
+	background: #f6faff;
+	padding-top: 80px;
+}
+.project-slide {
+	max-width: 539px;
+	&__headline {
+	margin-bottom: 40px;		
+		h3 {
+			font-family: @ff3;
+		}
+	}
+	&__text {
+		span {
+			display: block;
+			font-family: @ff4;
+			font-style: italic;
+			margin-bottom: 10px;
+		}
+	}
+}
+.project-slide-two {
+	max-width: 565px;
+  margin-left: 30px;
+}
+.project-slide,
+.project-slide-two {
+  display: inline-block;
+  vertical-align: top;
+}
+.project-slide-picture-after {
+  max-width: 570px;
+  min-height: 370px;
+  border-radius: 3px;
+  overflow: hidden;
+  position: relative;
+  z-index: 20;
+}
+.slide-picture-after-two-wrap {  
+  margin-top: 22px;
+}
+.slide-picture-after-two-wrap ul {
+  padding: 0;
+  margin: 0;
+}
+.slide-picture-after-two-wrap li {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 26px;
+}
+.slide-picture-after-two-wrap li:last-child {
+  margin-right: 0;
+}
+.slide-picture-after-two {
+  max-width: 168px;
+  min-height: 112px;
+  border-radius: 3px;
+  overflow: hidden;
+  cursor: pointer;
+}
+.slide-picture-after-two img {
+  max-width: 100%;
+  height: auto;
+}
+.owl-prev, .owl-next {
+    text-indent: -9999px;
+}
+#slider .owl-prev {
+    background: url("@{dir}arrow-left.png") no-repeat top center;    
+    transition: all 0.35s ease;
+    opacity: 1;
+    position: absolute;
+    bottom: -18%;
+    left: 35%;
+    &:hover {
+    	opacity: 0.6;
+    }
+}
+#slider .owl-next {
+    background: url("@{dir}arrow-right.png") no-repeat top center;    
+    transition: all 0.35s ease;
+    opacity: 1;
+    position: absolute;
+    right: 35%;
+    bottom: -18%;
+    &:hover {
+    	opacity: 0.6;
+    }
+}
+.owl-theme .owl-nav [class*=owl-] {
+    width: 50px;
+    height: 34px;   
+    overflow: hidden;    
+}
+#slider .owl-dots {
+	position: absolute;
+	bottom: -17%;
+	left: 47%;		
+}
+#slider .owl-dots .owl-dot span {
+	background: #67274f;	
+}
+#slider .owl-dots .owl-dot span:hover {
+  background: #792d5d;
+}
+
