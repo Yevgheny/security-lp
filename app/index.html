@@ -1019,26 +1019,25 @@
 
 
            <script type="text/javascript">
-           	function initMap() {
-            var myLatLng = {lat: 49.966344, lng: 36.323419};
+	           	function initMap() {
+	            var myLatLng = {lat: 49.966344, lng: 36.323419};
 
-            var map = new google.maps.Map(document.getElementById('map'), {
-                zoom: 17,
-                center: myLatLng,
-                scrollwheel: false,
-                disableDefaultUI: false
-            });
+	            var map = new google.maps.Map(document.getElementById('map'), {
+	                zoom: 17,
+	                center: myLatLng,
+	                scrollwheel: false,
+	                disableDefaultUI: false
+	            });
 
-            var image = 'img/map-pointer.png';
-            var beachMarker = new google.maps.Marker({
-                position: {lat: 49.966344, lng: 36.323419},
-                map: map,
-                icon: image,
-                animation: google.maps.Animation.DROP
-            });
+	            var image = 'img/map-pointer.png';
+	            var beachMarker = new google.maps.Marker({
+	                position: {lat: 49.966344, lng: 36.323419},
+	                map: map,
+	                icon: image,
+	                animation: google.maps.Animation.DROP
+	            });
 
-
-        }
+        	}
            </script>
         
     	<script type="text/javascript">
