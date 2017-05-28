@@ -1,25 +1,6 @@
 /*==========  Desktop First Method  ==========*/
 
-@media only screen and (max-width : 1240px){
-	.cloud-wrap__item-4::before{
-		top: -140%;
-		left: -32%;
-	}
-	.cloud-wrap__item-1--two::before {
-		bottom: 9%;
-	}
-	.cloud-wrap__item-1--six::before {
-	    left: -31%;
-	    bottom: 12%;
-	}
-	.cloud-wrap__item-3::before {
-		left: 0%;
-		bottom: -23%;
-	}
-	.cloud-wrap__item-1--seven::before {
-	    left: -11%;
-	    bottom: -18%;
-	}
+@media only screen and (max-width : 1240px){	
 	#slider .owl-dots {
 	    bottom: -7.5%;
 	    left: 47%;
@@ -67,6 +48,25 @@
 	}
 	.video__substrate {
 		top: 32%;
+	}
+	.cloud-wrap__item-4::before{
+		top: -140%;
+		left: -32%;
+	}
+	.cloud-wrap__item-1--two::before {
+		bottom: 9%;
+	}
+	.cloud-wrap__item-1--six::before {
+	    left: -31%;
+	    bottom: 12%;
+	}
+	.cloud-wrap__item-3::before {
+		left: -5%;
+		bottom: -23%;
+	}
+	.cloud-wrap__item-1--seven::before {
+	    left: -11%;
+	    bottom: -18%;
 	}	
 	.you-need-security {
 		margin-bottom: 110px;
@@ -185,26 +185,32 @@
 	}
 	.our-company__item--3 {
 	    padding-top: 137px;
+	}	
+	.cloud-wrap__item-4::before {
+	    top: -147%;
+	    left: -55%;
+	}
+	.cloud-wrap__item-1::before {
+		bottom: 58%;
+	}
+	.cloud-wrap__item-1--two::before {
+	    bottom: 15%;
+	    left: -50%;
+	}
+	.cloud-wrap__item-1--six::before {
+	    left: -39%;
+	    bottom: 20%;
+	}
+	.cloud-wrap__item-3::before {
+		left: -15%;
+	}
+	.cloud-wrap__item-1--seven::before {
+	    left: -16%;
+	    bottom: -13%;
 	}
 	.men-wrap::before {
-		display: none;
-	}
-	.you-need-security__head {
-		margin-bottom: 50px;
-	}
-	.cloud-wrap {
-		width: 100%;
-		background: #f6faff;
-		border: 2px solid #48597c;
-		border-radius: 3px;
-		padding: 10px;
-	}
-	.cloud-wrap__item-1, .cloud-wrap__item-2, .cloud-wrap__item-3, .cloud-wrap__item-4 {
-		margin-bottom: 15px;
-	}
-	.cloud-wrap:before {
-		display: none;
-	}
+		left: -83%;
+	}	
 	.five-steps__content-wrap--items,
 	.five-steps__content-wrap--items-two {
 		min-height: 215px;
@@ -236,7 +242,37 @@
 	}
 	
 }
-
+@media only screen and (max-width : 923px) {
+	.input-bottom-form {
+		width: 65%;
+	}
+	.men-wrap::before {
+		display: none;
+	}
+	.you-need-security__head {
+		margin-bottom: 50px;
+	}
+	.you-need-security {
+	    margin-bottom: 50px;
+	}
+	.cloud-wrap {
+		width: 100%;
+		background: #f6faff;
+		border: 2px solid #48597c;
+		border-radius: 3px;
+		padding: 10px;
+	}
+	.cloud-wrap:before {
+		display: none;
+	}
+	.cloud-wrap__item-1, 
+	.cloud-wrap__item-2, 
+	.cloud-wrap__item-3, 
+	.cloud-wrap__item-4 {
+		margin-bottom: 15px;
+	}
+	
+}
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 
@@ -317,14 +353,7 @@
 	}
 	.you-need-security {
 		margin-bottom: 0;
-	}
-	.cloud-wrap__item-4::before {
-	    top: -81%;
-	    left: -90%;
-	}
-	.cloud-wrap__item-1::before {
-	    bottom: 56%;
-	}
+	}	
 	.cloud-wrap__item-1--two, 
 	.cloud-wrap__item-1--three {
 	    margin-left: 0;
@@ -333,29 +362,7 @@
 	.cloud-wrap__item-1--seven {
 	    margin-left: 0;
 	    padding-right: 0;
-	}
-	.cloud-wrap__item-1--five:before {
-		bottom: 58%;
-	}
-	.cloud-wrap__item-2::before {
-		left: -62%;
-		bottom: 17%;
-	}					
-	.cloud-wrap__item-1--six:before {
-		left: -78%;
-		bottom: 23%;
-	}
-	.cloud-wrap__item-3::before {
-		left: -18%;
-		bottom: -13%;
-	}
-	.cloud-wrap__item-1--seven::before {
-	    left: -31%;
-	    bottom: -5%;
-	}
-	.input-bottom-form {
-		width: 65%;
-	}
+	}		
 	.five-steps__content-wrap--items,
 	.five-steps__content-wrap--items-two {
 		min-height: 170px;
@@ -377,6 +384,17 @@
 	.five-steps__content-wrap--items-two::after {
 	    top: 10%;
 	    left: 45%;
+	}
+	.contacts__head {
+	    margin-top: 0;
+	    padding-top: 20px;
+	}
+	.footer-head,
+	.contacts {
+		text-align: center;
+	}	
+	.contacts__phone a {
+		margin-bottom: 30px;
 	}
 	.main-footer__logo {
 		margin: 0 auto;
@@ -418,7 +436,6 @@
 		max-width: 70%;	
 		margin: 0 auto;
 	}
-
 	.form-bottom {
 		background: #fbc405;
 	}
@@ -439,6 +456,13 @@
 	.five-steps__application {
 		margin-bottom: 0;
 	}
+	.five-steps__content-wrap--description {
+		max-width: 370px;
+		margin: 0 auto;
+	}
+	.five-steps__content-wrap--description p {
+		font-size: 1.4rem;
+	}
 	.five-steps__content-wrap--items::before {
 	    left: 36%;
 	    top: 27%;
@@ -454,18 +478,7 @@
 	.five-steps__content-wrap--items-two::after {
 	    top: 30%;
 	    left: 48%;
-	}
-	.contacts__head {
-	    margin-top: 0;
-	    padding-top: 20px;
-	}
-	.footer-head,
-	.contacts {
-		text-align: center;
 	}	
-	.contacts__phone a {
-		margin-bottom: 30px;
-	}
 	.main-footer {
 		padding-bottom: 15px;
 	}
